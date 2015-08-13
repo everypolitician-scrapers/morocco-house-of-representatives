@@ -35,8 +35,7 @@ def scrape_list(url)
       term: 9,
     }
     data[:source] = URI.join(url, URI.escape(data[:source])).to_s unless data[:source].to_s.empty?
-    puts data
-    # ScraperWiki.save_sqlite([:id, :term], data)
+    ScraperWiki.save_sqlite([:id, :term], data)
   end
 
   nexturl = noko.css('li.next a/@href').first.text rescue nil
