@@ -35,6 +35,7 @@ def scrape_list(url)
       image: li.css('a.figure img/@src').text,
       term: 9,
     }
+    data[:name] = 'Kamal Abdel Fattah' if data[:id] == 'akamal' # No name in English version
     data[:source] = URI.join(url, URI.escape(data[:source])).to_s unless data[:source].to_s.empty?
     ScraperWiki.save_sqlite([:id, :term], data)
   end
