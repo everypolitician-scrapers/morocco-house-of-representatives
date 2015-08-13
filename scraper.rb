@@ -27,9 +27,10 @@ def scrape_list(url)
 
   noko.css('ul.lisitng_resultat li').each do |li|
     data = { 
+      id: li.css('h2.name a/@href').text.split("/").last,
       name: li.css('h2.name').text.tidy,
       party: li.css('a.link span').first.text,
-      group: li.css('a.link span').last.text,
+      faction: li.css('a.link span').last.text,
       source: li.css('h2.name a/@href').text,
       image: li.css('a.figure img/@src').text,
       term: 9,
