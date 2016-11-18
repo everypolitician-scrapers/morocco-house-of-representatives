@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:08:29 GMT
+    - Fri, 18 Nov 2016 12:32:12 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aaitouna/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=fuk8_FqY2FRJe_Jr0BD-pxCRohr1ym4ou7qqyuDrdD0;
-      expires=Thu, 17-Nov-2016 22:08:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=lq-8qEGzJGv5nL0kryv4VrYRgNt4laKCfoumgMaEmpo;
+      expires=Fri, 18-Nov-2016 20:32:12 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:08:29 GMT
+recorded_at: Fri, 18 Nov 2016 12:32:12 GMT
