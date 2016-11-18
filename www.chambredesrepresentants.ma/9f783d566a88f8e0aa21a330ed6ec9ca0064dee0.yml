@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:12:17 GMT
+    - Fri, 18 Nov 2016 12:53:51 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/achoukri/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=JTQe1GzRlPqyooAnPzazasacKXwqLso8MlybjmZhnQA;
-      expires=Thu, 17-Nov-2016 22:12:17 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=8bKtHrJrlR1Uu2xEBZ1Pj-eiDQb0dZT6_4M5MHXjX1I;
+      expires=Fri, 18-Nov-2016 20:53:51 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:12:17 GMT
+recorded_at: Fri, 18 Nov 2016 12:53:51 GMT
