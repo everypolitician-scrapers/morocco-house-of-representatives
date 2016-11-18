@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:20:46 GMT
+    - Fri, 18 Nov 2016 14:40:03 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/alabrigui/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=MslrAZNWmQlf4LjRmEWW0W8P2NZjSpUDz9BIBn3ESeY;
-      expires=Thu, 17-Nov-2016 22:20:46 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=8DdOk0wIC2fOBAO5Chtbq3iRiyqS72gMSXNzXKBCmxY;
+      expires=Fri, 18-Nov-2016 22:40:03 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:20:46 GMT
+recorded_at: Fri, 18 Nov 2016 14:40:02 GMT
