@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:08:36 GMT
+    - Fri, 18 Nov 2016 12:32:53 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aakfas/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=2Qh39_rO2c5yuyAHCBx3vKKmdGP_JZ1eJQdIFkL8K8s;
-      expires=Thu, 17-Nov-2016 22:08:36 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=V9NOY1NiwNGgVU5jMjuy2FjiDsiCDBV0qCx_z1lEJio;
+      expires=Fri, 18-Nov-2016 20:32:53 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:08:36 GMT
+recorded_at: Fri, 18 Nov 2016 12:32:53 GMT
