@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:31:46 GMT
+    - Fri, 18 Nov 2016 15:14:05 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/belmaliki/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=PjPqaSLVXdTVcME8KSqn4H83TKXG1ghkNcUywaDJtiQ;
-      expires=Thu, 17-Nov-2016 22:31:46 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=ajl0mfPlLEyp6zoJMhBdvIDUoj51Na031nl2R-qmPsI;
+      expires=Fri, 18-Nov-2016 23:14:05 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:31:46 GMT
+recorded_at: Fri, 18 Nov 2016 15:14:05 GMT
