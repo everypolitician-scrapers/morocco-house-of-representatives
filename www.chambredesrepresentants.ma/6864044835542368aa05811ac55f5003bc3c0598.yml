@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:13:45 GMT
+    - Fri, 18 Nov 2016 16:43:17 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/kghellab/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Xk0F1P3zGoHwpOc8glJvkXw7ToQSpkmym5w_OE69L5k;
-      expires=Thu, 17-Nov-2016 23:13:45 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=llETcdZ-fpIAD8I1YkbyXo5uWup4gd1OE_jVrFjk4h0;
+      expires=Sat, 19-Nov-2016 00:43:17 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:13:45 GMT
+recorded_at: Fri, 18 Nov 2016 16:43:17 GMT
