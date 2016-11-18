@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:21:04 GMT
+    - Fri, 18 Nov 2016 16:56:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/majef/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=wshSH4pvU8hcRF96Dz--nRKNsaptc0dsKOyxiBF8NIs;
-      expires=Thu, 17-Nov-2016 23:21:04 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=omA7Y5Uwf__IwBXLfGadVpGDMP5V1b58-54yDbKCxjI;
+      expires=Sat, 19-Nov-2016 00:56:00 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:21:04 GMT
+recorded_at: Fri, 18 Nov 2016 16:56:00 GMT
