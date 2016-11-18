@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:19:51 GMT
+    - Fri, 18 Nov 2016 14:36:35 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/akhairat/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=CRIt3f0xQO9VAmsR2u-gGDl4oZyT7Bs1NbzYYxf14gE;
-      expires=Thu, 17-Nov-2016 22:19:51 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=18RS8FQyRdshhP0RtANibM_sV_gNBMXrNHaqoeMulXs;
+      expires=Fri, 18-Nov-2016 22:36:35 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:19:51 GMT
+recorded_at: Fri, 18 Nov 2016 14:36:34 GMT
