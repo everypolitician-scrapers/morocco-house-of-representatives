@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:09:00 GMT
+    - Fri, 18 Nov 2016 16:34:11 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/jstitou/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=PvByHwkQncLvuUqgbUibHMe3DkIRYwUm4FnLyYCaFvk;
-      expires=Thu, 17-Nov-2016 23:09:00 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=0HNIBGmtd2JRHLAIkIvKKATXs9wP2UfDY8qlcZHUgjI;
+      expires=Sat, 19-Nov-2016 00:34:11 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:09:00 GMT
+recorded_at: Fri, 18 Nov 2016 16:34:11 GMT
