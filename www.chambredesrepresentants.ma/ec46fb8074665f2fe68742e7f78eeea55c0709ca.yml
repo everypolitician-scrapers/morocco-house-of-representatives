@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:10:46 GMT
+    - Fri, 18 Nov 2016 12:46:49 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aberroho/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Z8pnzp5p70jUjdZae_J8Yi_QsSSLHWm1TiWf__K9E2k;
-      expires=Thu, 17-Nov-2016 22:10:46 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=oygc6Bu5peeYhQORHitgUnlcXcJzWbINew8bG5SwXfE;
+      expires=Fri, 18-Nov-2016 20:46:49 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:10:46 GMT
+recorded_at: Fri, 18 Nov 2016 12:46:49 GMT
