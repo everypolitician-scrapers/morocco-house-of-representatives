@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:27:05 GMT
+    - Fri, 18 Nov 2016 15:01:43 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/asadqi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=R7jNZuBjrn-P4yQV6I1D0j00vxF_6PBgnYOouDBjaIQ;
-      expires=Thu, 17-Nov-2016 22:27:05 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Plxm2HnCLf5z0kd6ud20jVfqGVY7B9bW5Z8xaduwbc0;
+      expires=Fri, 18-Nov-2016 23:01:43 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:27:05 GMT
+recorded_at: Fri, 18 Nov 2016 15:01:43 GMT
