@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:36:02 GMT
+    - Fri, 18 Nov 2016 15:24:29 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/dboutahar/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=CapetvHprU_TsKQ5ZkGjq1V0Qj32gq01-thRyI_ZkvI;
-      expires=Thu, 17-Nov-2016 22:36:02 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=8F2puprpEeFjzkw9dz6ym8byl9Z1SPDY6Mt9TX4ZW9A;
+      expires=Fri, 18-Nov-2016 23:24:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:36:02 GMT
+recorded_at: Fri, 18 Nov 2016 15:24:29 GMT
