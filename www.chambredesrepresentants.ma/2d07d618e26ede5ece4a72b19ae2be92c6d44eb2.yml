@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:51:00 GMT
+    - Fri, 18 Nov 2016 15:56:52 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/flarhrib/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=wYE0aLvJi3WoQwdu7K-GhCT9pK4U7CX3kV9JLezDxp0;
-      expires=Thu, 17-Nov-2016 22:51:00 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=9TkEts02Qaoih9MgPKcHpphF18WxTdzCyGDg5pOG8Ik;
+      expires=Fri, 18-Nov-2016 23:56:52 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:51:00 GMT
+recorded_at: Fri, 18 Nov 2016 15:56:52 GMT
