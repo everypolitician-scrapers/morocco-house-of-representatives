@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:18:13 GMT
+    - Fri, 18 Nov 2016 13:21:49 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ajenfi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=TH40ry0_uYUCqoBx4wEH8ex08dTgL2LS4KSCejMOoOA;
-      expires=Thu, 17-Nov-2016 22:18:13 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Gz--VPa3AQSQXeF24Snq8_-G3uXWWHNnth0GgNUWa54;
+      expires=Fri, 18-Nov-2016 21:21:49 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:18:13 GMT
+recorded_at: Fri, 18 Nov 2016 13:21:49 GMT
