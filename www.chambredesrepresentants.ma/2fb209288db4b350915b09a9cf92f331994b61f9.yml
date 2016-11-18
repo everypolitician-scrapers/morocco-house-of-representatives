@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:42:20 GMT
+    - Fri, 18 Nov 2016 15:38:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/eghambou/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=sngCfrROWbltyvtBJ6di71b3PE4PkLWGE2grZWIqPDA;
-      expires=Thu, 17-Nov-2016 22:42:20 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=8A_wcinf-f89PrRczB3jEKXtrMmVqaYtcYgAqA9xdzQ;
+      expires=Fri, 18-Nov-2016 23:38:00 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:42:20 GMT
+recorded_at: Fri, 18 Nov 2016 15:38:00 GMT
