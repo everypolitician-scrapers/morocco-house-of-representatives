@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:23:12 GMT
+    - Fri, 18 Nov 2016 16:59:29 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mamiri/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=2Nyk_O-b5bx_2eVbYhzykK9RgDNrk4GZfizA_m8x0ag;
-      expires=Thu, 17-Nov-2016 23:23:12 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=o83WGjNj1fZzPb3rU-zXVFOKvrUE9W8YJrYAAMWdAJU;
+      expires=Sat, 19-Nov-2016 00:59:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:23:12 GMT
+recorded_at: Fri, 18 Nov 2016 16:59:29 GMT
