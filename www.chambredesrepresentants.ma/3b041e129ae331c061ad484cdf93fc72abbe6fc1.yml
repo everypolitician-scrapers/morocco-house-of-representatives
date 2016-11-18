@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:11:35 GMT
+    - Fri, 18 Nov 2016 12:50:55 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/achafik/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=M3U5bGCP4uI6NpQDxY5ZP_jiUUqPNf9NcMTygjJOxq8;
-      expires=Thu, 17-Nov-2016 22:11:35 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=C72WunSq4m4y5iAeIym9A8Cp_yQxem5AIdu1rgdSHu0;
+      expires=Fri, 18-Nov-2016 20:50:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:11:35 GMT
+recorded_at: Fri, 18 Nov 2016 12:50:55 GMT
