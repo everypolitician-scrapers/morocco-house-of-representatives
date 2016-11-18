@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:26:43 GMT
+    - Fri, 18 Nov 2016 17:06:46 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mbenfaida/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=rJbPGnGp3NpGhyfnVOH5D-30_tBCu3eRlokRY4IT1lg;
-      expires=Thu, 17-Nov-2016 23:26:43 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=u6Ralxc2kHkU17zymjxT8GKGQQX9pe-4SW_O_NjY4kg;
+      expires=Sat, 19-Nov-2016 01:06:45 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:26:43 GMT
+recorded_at: Fri, 18 Nov 2016 17:06:46 GMT
