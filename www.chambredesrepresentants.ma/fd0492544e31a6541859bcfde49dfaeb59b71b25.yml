@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:27:38 GMT
+    - Fri, 18 Nov 2016 17:09:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mbenkhaldoun/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=7dlMSf20nQpOq7Nxsq-vLXy2NdTlrJ4R6e1fx9PeNdg;
-      expires=Thu, 17-Nov-2016 23:27:38 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=0fhaw83O_8NneAUXt8oaNKT68U92Mk-J2IzHyM6bwsA;
+      expires=Sat, 19-Nov-2016 01:09:00 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:27:38 GMT
+recorded_at: Fri, 18 Nov 2016 17:09:00 GMT
