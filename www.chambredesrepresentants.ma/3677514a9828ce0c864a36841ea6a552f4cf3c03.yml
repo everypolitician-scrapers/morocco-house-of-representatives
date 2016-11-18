@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:12:47 GMT
+    - Fri, 18 Nov 2016 16:41:44 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/kyamllahi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=gAqolmvktmlmsMcTK6jdRGXoNWLy3RoTky7DLz2BL2g;
-      expires=Thu, 17-Nov-2016 23:12:47 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Xx_DpOsHNbaV3ZloMbvtgOeokbPyNqKUvmyGd5iBIzE;
+      expires=Sat, 19-Nov-2016 00:41:44 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:12:47 GMT
+recorded_at: Fri, 18 Nov 2016 16:41:44 GMT
