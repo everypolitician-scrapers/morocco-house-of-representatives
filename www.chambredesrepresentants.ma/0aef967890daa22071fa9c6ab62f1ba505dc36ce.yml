@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:24:58 GMT
+    - Fri, 18 Nov 2016 14:55:35 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aoubassou/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=kx6c_3ReueKPczgf868OUbVlsy5JUbdiPGoGhkik1O4;
-      expires=Thu, 17-Nov-2016 22:24:58 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=K3lOmryle7WiSceOibY0aIrBHF2qaOwbesl4sqfnItA;
+      expires=Fri, 18-Nov-2016 22:55:35 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:24:58 GMT
+recorded_at: Fri, 18 Nov 2016 14:55:35 GMT
