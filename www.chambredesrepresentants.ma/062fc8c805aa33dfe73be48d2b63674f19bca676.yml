@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:28:31 GMT
+    - Fri, 18 Nov 2016 15:05:34 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/atattou/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=dBE4QJISU8giC-iC0kBQUIlNdrncfx7XxUMv2JojTyk;
-      expires=Thu, 17-Nov-2016 22:28:30 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=YhjoWQ9UT8k-kmbdo1lD60Ifi9fE9vDBur3ruZJMyxg;
+      expires=Fri, 18-Nov-2016 23:05:34 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:28:31 GMT
+recorded_at: Fri, 18 Nov 2016 15:05:35 GMT
