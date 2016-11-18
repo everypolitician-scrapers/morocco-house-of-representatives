@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:18:29 GMT
+    - Fri, 18 Nov 2016 13:23:04 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ajodar/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=wu73iXS9JdEmobqlwEL7eFDm8EMsyztfjaefxmNdSI0;
-      expires=Thu, 17-Nov-2016 22:18:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=2gpGEcXLwMMlY85gT2MCMKXs6unncmS7oIXOhHGwJrA;
+      expires=Fri, 18-Nov-2016 21:23:04 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:18:29 GMT
+recorded_at: Fri, 18 Nov 2016 13:23:04 GMT
