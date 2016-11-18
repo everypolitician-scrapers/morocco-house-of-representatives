@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:09:22 GMT
+    - Fri, 18 Nov 2016 12:38:20 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/abaillat/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=lZG5kmNxbGqKHOd5ayVbslueYDf48cYBg-zWV7K0Bxc;
-      expires=Thu, 17-Nov-2016 22:09:22 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=bvCs9rsnuNxGEA3gXUwozxrTb97gFTsKSk-EyMzN8nU;
+      expires=Fri, 18-Nov-2016 20:38:20 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:09:22 GMT
+recorded_at: Fri, 18 Nov 2016 12:38:20 GMT
