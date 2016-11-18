@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:21:56 GMT
+    - Fri, 18 Nov 2016 14:45:07 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/amezouari/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=uzIhow3ZuQNs1jKc0q_15Fm1r7c4wr8MMuzRWL3A9Gw;
-      expires=Thu, 17-Nov-2016 22:21:56 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=pdasE3Ac3W3UlrcikYZToyQ5rpaatNQ-KtsOF8bDM_Y;
+      expires=Fri, 18-Nov-2016 22:45:07 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:21:56 GMT
+recorded_at: Fri, 18 Nov 2016 14:45:08 GMT
