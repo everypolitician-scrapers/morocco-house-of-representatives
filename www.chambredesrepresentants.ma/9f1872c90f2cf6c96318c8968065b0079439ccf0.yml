@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:08:02 GMT
+    - Fri, 18 Nov 2016 12:28:30 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aaftati/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=WWMMatrEZ233xM0TNPm6R6zRFCqBoxiN9dcHZlNHOMI;
-      expires=Thu, 17-Nov-2016 22:08:02 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=rKi3AIYKOjO6_cEJkVdEJOyg1wVig7uUQr1tflcO_Co;
+      expires=Fri, 18-Nov-2016 20:28:30 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:08:02 GMT
+recorded_at: Fri, 18 Nov 2016 12:28:30 GMT
