@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:45:28 GMT
+    - Fri, 18 Nov 2016 15:44:45 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/etaghi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=WuBLa4DbzV2TeqeFpzxnmL97D9cXsrpjniNST3sit9Q;
-      expires=Thu, 17-Nov-2016 22:45:28 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=BYBkhN0ISCQNXqiTEbvSl1RcE_roDJuNox1UD9wOLrs;
+      expires=Fri, 18-Nov-2016 23:44:44 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:45:28 GMT
+recorded_at: Fri, 18 Nov 2016 15:44:45 GMT
