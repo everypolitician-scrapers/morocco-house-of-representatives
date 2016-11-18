@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:13:19 GMT
+    - Fri, 18 Nov 2016 16:42:32 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/kziady/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=TqND9wC78EfRxV8rfuP6XvH4XU6rk3razCb6wSAjWXI;
-      expires=Thu, 17-Nov-2016 23:13:19 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Oddo-w02gxzbL64g5juIyXSqFUAH44qAN0gH9BOSc3A;
+      expires=Sat, 19-Nov-2016 00:42:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:13:19 GMT
+recorded_at: Fri, 18 Nov 2016 16:42:32 GMT
