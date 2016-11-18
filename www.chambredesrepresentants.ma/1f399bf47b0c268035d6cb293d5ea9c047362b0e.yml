@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:22:26 GMT
+    - Fri, 18 Nov 2016 14:46:55 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/amoufdi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=HMNmgJnKEr0gSymMOi-SDLx2ldESyvJlJiSKQa36ADM;
-      expires=Thu, 17-Nov-2016 22:22:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Isxilhh5yr6xpCxmj1hUAH5aGB0M8-bLaIB2n8sRDHg;
+      expires=Fri, 18-Nov-2016 22:46:54 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:22:26 GMT
+recorded_at: Fri, 18 Nov 2016 14:46:55 GMT
