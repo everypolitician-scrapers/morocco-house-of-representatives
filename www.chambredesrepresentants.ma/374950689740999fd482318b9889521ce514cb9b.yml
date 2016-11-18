@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:06:18 GMT
+    - Fri, 18 Nov 2016 16:28:12 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/jafif/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=ewu4jy7pCU9hs--_LKuNRxfXSHiCrV2qh47JRD20s_Y;
-      expires=Thu, 17-Nov-2016 23:06:18 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=gXWnodDVqrUI4FV8tfcHhBQjEBUnRIhjXzFGBbTGWvo;
+      expires=Sat, 19-Nov-2016 00:28:12 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:06:18 GMT
+recorded_at: Fri, 18 Nov 2016 16:28:12 GMT
