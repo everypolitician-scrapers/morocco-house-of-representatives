@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:22:09 GMT
+    - Fri, 18 Nov 2016 14:45:55 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/amkiki2/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=EMU7iIuHyGAYJsBGWNzPCnPunynBXv96ifADM80KBI8;
-      expires=Thu, 17-Nov-2016 22:22:09 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=y7iK-tIbs1jksvi28K4PvRV3Z9ftWpKmo5X0qC0GgzE;
+      expires=Fri, 18-Nov-2016 22:45:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:22:10 GMT
+recorded_at: Fri, 18 Nov 2016 14:45:55 GMT
