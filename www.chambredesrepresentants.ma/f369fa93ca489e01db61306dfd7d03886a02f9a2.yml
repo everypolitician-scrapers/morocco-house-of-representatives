@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:22:44 GMT
+    - Fri, 18 Nov 2016 16:58:39 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mameur/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=L5hZQovqL6F_lE_6JohJ4RvAWQpACcUDhBZgAnm6peQ;
-      expires=Thu, 17-Nov-2016 23:22:44 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=0rL17HaYZl7Wqitr8Y1WJJSRrhTcoqzjVMvciMqJUKI;
+      expires=Sat, 19-Nov-2016 00:58:39 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:22:44 GMT
+recorded_at: Fri, 18 Nov 2016 16:58:39 GMT
