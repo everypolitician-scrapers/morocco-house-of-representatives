@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 14:32:50 GMT
+    - Fri, 18 Nov 2016 15:16:33 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/bhoubaine/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=ZIG3zKw86eY5THfkggThIvq4-x1Pywhmw1GjekTnwR8;
-      expires=Thu, 17-Nov-2016 22:32:50 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=PHv7i9i-2qauj8sYlCFAzNNmMDPGji2Jw5LUFAuc5cE;
+      expires=Fri, 18-Nov-2016 23:16:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 14:32:50 GMT
+recorded_at: Fri, 18 Nov 2016 15:16:33 GMT
