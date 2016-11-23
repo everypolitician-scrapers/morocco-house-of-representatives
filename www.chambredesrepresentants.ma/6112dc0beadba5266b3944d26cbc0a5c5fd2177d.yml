@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:33:01 GMT
+    - Wed, 23 Nov 2016 11:05:28 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/echatouani/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=02e1cEWqWizu4_U2I5eE2MFvAcFWCqMFMRkKouszyyA;
-      expires=Fri, 18-Nov-2016 23:33:01 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=AKdvRnVwfVRGbkixy_TBmRu0_Re0r3J-3lOxMgk94EE;
+      expires=Wed, 23-Nov-2016 19:05:28 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:33:01 GMT
+recorded_at: Wed, 23 Nov 2016 11:05:28 GMT
