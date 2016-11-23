@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:27:28 GMT
+    - Wed, 23 Nov 2016 11:46:09 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ioutocart/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=-rbuyVBsnXp6a2TJ2NPGoc2Kcn6GDMHaTXCDDXg7nuk;
-      expires=Sat, 19-Nov-2016 00:27:28 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=rQMmGQFxWlR7Xi_MBcOsUF87c6yy88GAo7tvFG463ZA;
+      expires=Wed, 23-Nov-2016 19:46:09 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:27:28 GMT
+recorded_at: Wed, 23 Nov 2016 11:46:09 GMT
