@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:16:53 GMT
+    - Wed, 23 Nov 2016 11:39:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/hharrami/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=XAYLUmXo7KdcP9cYn-097L5w3BomgE781YME2wqt9nI;
-      expires=Sat, 19-Nov-2016 00:16:52 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=K0jOViG3utMLJZbIBdB3xG5SpPscQkB-WkML4XDjems;
+      expires=Wed, 23-Nov-2016 19:39:00 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:16:53 GMT
+recorded_at: Wed, 23 Nov 2016 11:39:00 GMT
