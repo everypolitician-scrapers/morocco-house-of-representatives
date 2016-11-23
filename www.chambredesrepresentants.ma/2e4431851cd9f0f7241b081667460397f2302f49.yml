@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:08:26 GMT
+    - Wed, 23 Nov 2016 11:32:19 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/hbourrgaline/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=LKqs0X9rnyxLjrWqRXyQjoR76S7eLC-h_SQDWfTs2-8;
-      expires=Sat, 19-Nov-2016 00:08:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=saUUKnwA7HwjZjKx2K8BlPo83CAzjbtPer6ze-lC23c;
+      expires=Wed, 23-Nov-2016 19:32:18 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:08:26 GMT
+recorded_at: Wed, 23 Nov 2016 11:32:19 GMT
