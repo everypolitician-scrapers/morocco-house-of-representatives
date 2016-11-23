@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:52:20 GMT
+    - Wed, 23 Nov 2016 11:20:31 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/felmansouri/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=7cPRevqv_HZssccZFZi9x7eKyHkSOvkpHteR79L4fZU;
-      expires=Fri, 18-Nov-2016 23:52:20 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=K3epb-76zSKGp6UMKBs2e9QQGX3lfydD1ObPezGFmYE;
+      expires=Wed, 23-Nov-2016 19:20:31 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:52:20 GMT
+recorded_at: Wed, 23 Nov 2016 11:20:31 GMT
