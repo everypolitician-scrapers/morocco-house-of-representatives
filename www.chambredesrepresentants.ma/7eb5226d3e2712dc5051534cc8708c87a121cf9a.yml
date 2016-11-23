@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:43:55 GMT
+    - Wed, 23 Nov 2016 11:13:48 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/erahouia/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=FP0KiWHiOLCl4yQzxdOvC8tGHqbvCIkm8CJjy-ugqag;
-      expires=Fri, 18-Nov-2016 23:43:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=M2Ujn36Tz6flf__e-g2RspEh-VzI6AK03sx0DExkaRI;
+      expires=Wed, 23-Nov-2016 19:13:48 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:43:55 GMT
+recorded_at: Wed, 23 Nov 2016 11:13:49 GMT
