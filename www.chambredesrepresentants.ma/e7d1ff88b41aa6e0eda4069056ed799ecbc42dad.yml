@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:10:32 GMT
+    - Wed, 23 Nov 2016 10:49:29 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/bbarrijal/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=ZrdQA0c4Outyw7ty5qR1q8VP4onlOaW0wF4IO5rNSTY;
-      expires=Fri, 18-Nov-2016 23:10:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=2ccQm2OKS_7DDeGBzgUv1b7TsGTzXbByH-PVUPOsWQ8;
+      expires=Wed, 23-Nov-2016 18:49:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:10:32 GMT
+recorded_at: Wed, 23 Nov 2016 10:49:29 GMT
