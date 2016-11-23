@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:39:34 GMT
+    - Wed, 23 Nov 2016 11:10:26 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ejabrane/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=FA0TOSm2-kUd17igE3IJ7YfCVR8JP4BwCuba1Iwk6WI;
-      expires=Fri, 18-Nov-2016 23:39:34 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=GfCi928sgCzyvC06ACP5DwsezAvJU4EopbZUV6PTRso;
+      expires=Wed, 23-Nov-2016 19:10:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:39:34 GMT
+recorded_at: Wed, 23 Nov 2016 11:10:26 GMT
