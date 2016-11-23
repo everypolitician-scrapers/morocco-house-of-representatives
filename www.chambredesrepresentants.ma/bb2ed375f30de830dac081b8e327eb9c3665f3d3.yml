@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 12:53:07 GMT
+    - Wed, 23 Nov 2016 09:57:12 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/achat/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=3UZzK-AoaB7s9Ga8Twtnz2hqnc3WByU1F6Bp3l3hZKg;
-      expires=Fri, 18-Nov-2016 20:53:07 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=4Ju9S6iN1v8DeMWcDYsM0wMTIif2xnjqBM_BVP4ISqU;
+      expires=Wed, 23-Nov-2016 17:57:11 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 12:53:07 GMT
+recorded_at: Wed, 23 Nov 2016 09:57:12 GMT
