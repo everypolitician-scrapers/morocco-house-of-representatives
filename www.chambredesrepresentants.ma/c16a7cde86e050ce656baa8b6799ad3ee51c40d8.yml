@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:38:44 GMT
+    - Wed, 23 Nov 2016 11:09:39 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ejaayder/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=xMTJnn7AYcOooL6gi6EbMXZtbvp9TzWZNevjHikEeSE;
-      expires=Fri, 18-Nov-2016 23:38:44 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=lKA_JBs9hDD20uIGvtkyzyalW2r0M1OrwbuiocKfS5k;
+      expires=Wed, 23-Nov-2016 19:09:39 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:38:45 GMT
+recorded_at: Wed, 23 Nov 2016 11:09:39 GMT
