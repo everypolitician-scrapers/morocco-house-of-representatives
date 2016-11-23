@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 12:57:11 GMT
+    - Wed, 23 Nov 2016 10:00:36 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aeddabadda/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=oQ6AXU8MPlW0vGinI8x72jSj460Imq57nVS7DFEJBzk;
-      expires=Fri, 18-Nov-2016 20:57:11 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=DnVCt_X-jLIGfYubRdOc-S-QnPK--Gvc180QYxn_xAM;
+      expires=Wed, 23-Nov-2016 18:00:36 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 12:57:11 GMT
+recorded_at: Wed, 23 Nov 2016 10:00:36 GMT
