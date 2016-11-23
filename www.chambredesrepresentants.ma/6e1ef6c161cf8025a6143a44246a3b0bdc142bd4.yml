@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 17:13:58 GMT
+    - Wed, 23 Nov 2016 12:17:12 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mboubakr/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=H3hXxhX9MvBqi714eD1qXjb-IAf7gqei4Rjqj4JpOSo;
-      expires=Sat, 19-Nov-2016 01:13:58 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=wsWAspKHM0ARyE6fS8RM5yjIQcpnKpVbDCNOXGvyoDo;
+      expires=Wed, 23-Nov-2016 20:17:12 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 17:13:58 GMT
+recorded_at: Wed, 23 Nov 2016 12:17:12 GMT
