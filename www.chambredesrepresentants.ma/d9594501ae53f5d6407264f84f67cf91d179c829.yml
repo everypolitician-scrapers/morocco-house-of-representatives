@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 17:16:06 GMT
+    - Wed, 23 Nov 2016 12:18:26 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mboudra/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=dlpNp1KwoRha0NKYEvyhFhcqErnTrt7ovv5etOv3I_w;
-      expires=Sat, 19-Nov-2016 01:16:06 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=7rkD3Pgv26wocwJIApNAvzJYt8mdBa5gPkReTZ6cMYc;
+      expires=Wed, 23-Nov-2016 20:18:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 17:16:06 GMT
+recorded_at: Wed, 23 Nov 2016 12:18:26 GMT
