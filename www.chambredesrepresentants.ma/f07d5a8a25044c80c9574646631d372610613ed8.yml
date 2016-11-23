@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 12:45:09 GMT
+    - Wed, 23 Nov 2016 09:50:23 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/abenyakoub/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=4jiVjmu-FryyOxGnWC-QCS2Jx_R_mMfndnQocRdxl6s;
-      expires=Fri, 18-Nov-2016 20:45:09 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=64hgLGKldABADx_64n_M1UKzjWe0BXRk4YfYQ2Yd7Rc;
+      expires=Wed, 23-Nov-2016 17:50:23 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 12:45:09 GMT
+recorded_at: Wed, 23 Nov 2016 09:50:23 GMT
