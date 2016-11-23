@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:56:06 GMT
+    - Wed, 23 Nov 2016 11:22:50 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/fharfi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=piP-X0misUo89YQK2VRMb8GfZrfN9sHYoZdvXhINLCo;
-      expires=Fri, 18-Nov-2016 23:56:06 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=TPjsgqBo6O1v861YklahyP9yqKEfmLcAyKZb-8odkBo;
+      expires=Wed, 23-Nov-2016 19:22:50 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:56:06 GMT
+recorded_at: Wed, 23 Nov 2016 11:22:50 GMT
