@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:24:10 GMT
+    - Wed, 23 Nov 2016 11:43:46 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/hsaanane/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=0Az-Kt0HTqOcpTrY5vQT8Z41wCjwJFhpgf9TPsBkKzg;
-      expires=Sat, 19-Nov-2016 00:24:10 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=79rEZ34DsTBJFOvg5Ijv_50ZRVvhiu0uFXGeeSKA_Sk;
+      expires=Wed, 23-Nov-2016 19:43:46 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:24:10 GMT
+recorded_at: Wed, 23 Nov 2016 11:43:46 GMT
