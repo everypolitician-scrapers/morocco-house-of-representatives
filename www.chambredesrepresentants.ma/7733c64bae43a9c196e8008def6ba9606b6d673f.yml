@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:57:32 GMT
+    - Wed, 23 Nov 2016 11:24:21 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/flayadi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=w6tL7bAZ1aXHFFGkRpS-VX3jPG81la7WXwejbFtkZew;
-      expires=Fri, 18-Nov-2016 23:57:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=wqNAg2Z0kX_D8J92_g6OLuGD8LoJDavBCuTn7jnp1i4;
+      expires=Wed, 23-Nov-2016 19:24:21 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:57:32 GMT
+recorded_at: Wed, 23 Nov 2016 11:24:21 GMT
