@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:46:39 GMT
+    - Wed, 23 Nov 2016 11:59:55 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/lamrouch/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=ul_DPYIinK8WqVnWXMFvGClkPhcl5L1eKI1gc639XCk;
-      expires=Sat, 19-Nov-2016 00:46:39 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=GHBB2PFW0qMSGZxoVTGl7fsw11Nhl1Q5p_wrA8-3sNs;
+      expires=Wed, 23-Nov-2016 19:59:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:46:39 GMT
+recorded_at: Wed, 23 Nov 2016 11:59:55 GMT
