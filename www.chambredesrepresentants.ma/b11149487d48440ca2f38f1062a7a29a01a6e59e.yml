@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 13:02:38 GMT
+    - Wed, 23 Nov 2016 10:05:47 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aelguermat/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=YWWzNenqgaZiQoxo4CQVtzvJF14FfpxNtGWPVPQOmuU;
-      expires=Fri, 18-Nov-2016 21:02:38 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=PYgZLvepMYq5Gdp_-4b1epCJMrYNK9tlFpTRwFeCsdg;
+      expires=Wed, 23-Nov-2016 18:05:47 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 13:02:38 GMT
+recorded_at: Wed, 23 Nov 2016 10:05:47 GMT
