@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 14:56:30 GMT
+    - Wed, 23 Nov 2016 10:37:06 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aouekkak/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Fa1MAyni9vwbbJg3Q3dRcCsejNpp-LYUqIupAHlX6gM;
-      expires=Fri, 18-Nov-2016 22:56:30 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=yEk0cG9L7XXV_bpbXcrJ1hQjpQJCUhJ69DJW5JGxyqg;
+      expires=Wed, 23-Nov-2016 18:37:06 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 14:56:31 GMT
+recorded_at: Wed, 23 Nov 2016 10:37:06 GMT
