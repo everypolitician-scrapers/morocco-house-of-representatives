@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:40:30 GMT
+    - Wed, 23 Nov 2016 11:11:09 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ekassmi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=jy51OXkWfZOMi423pEMWkBzG3amMUuTxA2K38Vnkc6c;
-      expires=Fri, 18-Nov-2016 23:40:30 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=LP2G7Qq-W_syROy1wayiyOF66rKYXxF42yPESg_xeAQ;
+      expires=Wed, 23-Nov-2016 19:11:09 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:40:30 GMT
+recorded_at: Wed, 23 Nov 2016 11:11:09 GMT
