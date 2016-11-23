@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 12:36:27 GMT
+    - Wed, 23 Nov 2016 09:43:32 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aamrani/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=2T-E9S7XpW7SwZbTjEMPRTCDyCwzzmHW7e9hQvOW73I;
-      expires=Fri, 18-Nov-2016 20:36:27 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=ebwzumv-tbDcDViRS6XQBXsEDzwwoYEpGvzwcOwX1vE;
+      expires=Wed, 23-Nov-2016 17:43:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 12:36:27 GMT
+recorded_at: Wed, 23 Nov 2016 09:43:32 GMT
