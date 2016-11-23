@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:32:32 GMT
+    - Wed, 23 Nov 2016 11:49:44 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/jmorsli/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=YfRWKY5SvXXzuE2XNIYScurcZckLnQGyHLGPmED9U20;
-      expires=Sat, 19-Nov-2016 00:32:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=-sDlye6IloxWSwQjlhPauXMR3fy7SYk3DB_T-fJ_pFI;
+      expires=Wed, 23-Nov-2016 19:49:44 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:32:32 GMT
+recorded_at: Wed, 23 Nov 2016 11:49:44 GMT
