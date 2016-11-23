@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 12:25:19 GMT
+    - Wed, 23 Nov 2016 09:34:55 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aabdelmoula/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=vY0Gf4v6-WipNnTzxlOTpowJN89fJza2rWRidUo_pw4;
-      expires=Fri, 18-Nov-2016 20:25:19 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=c-pb0_33Co7dKhkLyURHayT5PzaSk9fVZPsx8qivDbw;
+      expires=Wed, 23-Nov-2016 17:34:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 12:25:19 GMT
+recorded_at: Wed, 23 Nov 2016 09:34:55 GMT
