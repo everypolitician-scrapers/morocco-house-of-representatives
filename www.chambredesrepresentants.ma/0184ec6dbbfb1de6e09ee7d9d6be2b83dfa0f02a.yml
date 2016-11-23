@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:23:15 GMT
+    - Wed, 23 Nov 2016 11:43:13 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/houlderrachid/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=3Qok8zV1-KN9Aqd0LjpsdcYgslzk1h1OrYPS-oCrPzE;
-      expires=Sat, 19-Nov-2016 00:23:15 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=APYsk56d6xh_EE1cRt0ESU9ocnInPEwkb4vnpF-Jghs;
+      expires=Wed, 23-Nov-2016 19:43:13 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:23:15 GMT
+recorded_at: Wed, 23 Nov 2016 11:43:13 GMT
