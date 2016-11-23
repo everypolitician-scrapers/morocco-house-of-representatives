@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:49:14 GMT
+    - Wed, 23 Nov 2016 12:01:44 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mabarkan/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=sj_rR4PKGOyEKGqz1LPCEGOe4tS6d-TKCAiMT2tClG0;
-      expires=Sat, 19-Nov-2016 00:49:14 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=G8X8-Y52syjKamRsKy6jdl0ekllUPXS17UneZ2m3YSE;
+      expires=Wed, 23-Nov-2016 20:01:44 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:49:14 GMT
+recorded_at: Wed, 23 Nov 2016 12:01:44 GMT
