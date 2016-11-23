@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:55:05 GMT
+    - Wed, 23 Nov 2016 11:22:17 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/fhajir/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=_VWJVpJq0ZjgMuNaH17WeYgoMYnPYNfpMoQ1AbTSMJc;
-      expires=Fri, 18-Nov-2016 23:55:05 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=pHaoTIN4oKhzdQbLF9riLM48KRgCf8nSlnuRtgGZTUI;
+      expires=Wed, 23-Nov-2016 19:22:17 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:55:05 GMT
+recorded_at: Wed, 23 Nov 2016 11:22:17 GMT
