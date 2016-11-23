@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:26:41 GMT
+    - Wed, 23 Nov 2016 11:45:25 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/iouali/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=gpMqea_JgJqI_cWlWh7efbzkxP-wVVQpyOEtjrUnYsI;
-      expires=Sat, 19-Nov-2016 00:26:41 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=wXVYLSMSEL6j0MPl8iZCHrI3AGct2fQCX_b0k14shR4;
+      expires=Wed, 23-Nov-2016 19:45:25 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:26:41 GMT
+recorded_at: Wed, 23 Nov 2016 11:45:25 GMT
