@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:39:27 GMT
+    - Wed, 23 Nov 2016 11:54:46 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/krouissi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=jfKwGJ2uEulT98TpG_Hz2LH0lmhaEp-_aq20Qbkze2Q;
-      expires=Sat, 19-Nov-2016 00:39:27 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=SJ02rDJkA37AFv3WB8nDCsg_CelKLvFjD4370JPskUs;
+      expires=Wed, 23-Nov-2016 19:54:46 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:39:27 GMT
+recorded_at: Wed, 23 Nov 2016 11:54:46 GMT
