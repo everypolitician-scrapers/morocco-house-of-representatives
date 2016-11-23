@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:11:40 GMT
+    - Wed, 23 Nov 2016 11:34:49 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/hderhem/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=WZyYyoxHtDKsN72UKZ8N4Obbrjxi284R6goj6dL0svM;
-      expires=Sat, 19-Nov-2016 00:11:40 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=8Dx9hkbRaAY8Jclx6YlN8xeMMCd6hrXx-4m0lqWMqZE;
+      expires=Wed, 23-Nov-2016 19:34:49 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:11:41 GMT
+recorded_at: Wed, 23 Nov 2016 11:34:49 GMT
