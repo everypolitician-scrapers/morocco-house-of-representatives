@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:40:10 GMT
+    - Wed, 23 Nov 2016 11:55:24 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ksairi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=VDvS_4pcoeMInLV6MVy5IP6H0_3B7DKk8XcyQl7bIjk;
-      expires=Sat, 19-Nov-2016 00:40:10 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=NPeoRbS3pGjHQFbCRPTVe093zaUVPSTerty0iaiL8DY;
+      expires=Wed, 23-Nov-2016 19:55:24 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:40:10 GMT
+recorded_at: Wed, 23 Nov 2016 11:55:24 GMT
