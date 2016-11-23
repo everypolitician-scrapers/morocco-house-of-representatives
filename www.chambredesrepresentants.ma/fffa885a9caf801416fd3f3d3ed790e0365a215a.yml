@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:53:25 GMT
+    - Wed, 23 Nov 2016 12:04:38 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mahrarad/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=PtMZOnrB_SHtM2M9nAjFUJWI14EIvQEGpvXLUDleGjQ;
-      expires=Sat, 19-Nov-2016 00:53:25 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=ZzHyxuM23-TMT-81Cs6BBzDC3gfq7kuvee4hwuCLyGI;
+      expires=Wed, 23-Nov-2016 20:04:38 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:53:25 GMT
+recorded_at: Wed, 23 Nov 2016 12:04:38 GMT
