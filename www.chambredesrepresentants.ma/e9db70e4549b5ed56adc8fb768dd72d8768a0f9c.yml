@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:33:50 GMT
+    - Wed, 23 Nov 2016 11:06:03 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/eelalaoui/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=awmVYygrrWPGni4DC_wGQK-78OAJC8Px38TrVPll0fc;
-      expires=Fri, 18-Nov-2016 23:33:50 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=uNMLuyENG_VXic_SU7w5ciRbP8frVFgzH9FlFT7h4tY;
+      expires=Wed, 23-Nov-2016 19:06:03 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:33:50 GMT
+recorded_at: Wed, 23 Nov 2016 11:06:03 GMT
