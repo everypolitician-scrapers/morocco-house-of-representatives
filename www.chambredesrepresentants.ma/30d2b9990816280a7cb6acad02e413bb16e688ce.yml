@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 12:57:55 GMT
+    - Wed, 23 Nov 2016 10:01:13 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aelaajili/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=X1ZKLiSwsVfeHcf5dS_9i2AxsDzPTsVp0SgSVRL-MyU;
-      expires=Fri, 18-Nov-2016 20:57:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=SfEL-DPZwo2KSQRcq7sffVrKqj2_90y6TuXPEbVsckU;
+      expires=Wed, 23-Nov-2016 18:01:13 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 12:57:55 GMT
+recorded_at: Wed, 23 Nov 2016 10:01:13 GMT
