@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:25:17 GMT
+    - Wed, 23 Nov 2016 11:00:11 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/dchtibi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=0Be3afb6ZUeOftNz0wI0M4XmRHMbffW2Mt4ZkP6GTMs;
-      expires=Fri, 18-Nov-2016 23:25:17 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=-5BVuoVFYdYv9aY5RMnVx7jWhr8A_Om2WWcPuN0rFag;
+      expires=Wed, 23-Nov-2016 19:00:11 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:25:17 GMT
+recorded_at: Wed, 23 Nov 2016 11:00:11 GMT
