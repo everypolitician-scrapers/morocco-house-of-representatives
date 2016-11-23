@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 17 Nov 2016 15:54:30 GMT
+    - Wed, 23 Nov 2016 12:44:19 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mmalal/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=FsohmrB4Day_3qmYbQZ6vshwzMq4ueCDB-cT_6uuCaM;
-      expires=Thu, 17-Nov-2016 23:54:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=xwlvsCY1EpKgan_vy4MOarCPse0Wc5hAP1LNz_TejWo;
+      expires=Wed, 23-Nov-2016 20:44:19 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 17 Nov 2016 15:54:30 GMT
+recorded_at: Wed, 23 Nov 2016 12:44:19 GMT
