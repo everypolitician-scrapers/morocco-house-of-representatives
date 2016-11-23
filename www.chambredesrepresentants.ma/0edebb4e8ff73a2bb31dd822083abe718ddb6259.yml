@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 16:02:03 GMT
+    - Wed, 23 Nov 2016 11:28:04 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/haboulfath/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=c7JnSVIgJIsL_AM_T_5V4iYGoA-tDLd17Xxqn2DY_HA;
-      expires=Sat, 19-Nov-2016 00:02:03 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=hG-MbID5MVeIUu_GiFkwdnbjXPR2s1ckA_FMzoZVrs8;
+      expires=Wed, 23-Nov-2016 19:28:04 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 16:02:03 GMT
+recorded_at: Wed, 23 Nov 2016 11:28:04 GMT
