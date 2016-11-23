@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 17:17:54 GMT
+    - Wed, 23 Nov 2016 12:19:47 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mbouhdoud/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=zaewQL4stylvwWJX1f3xrTAGCpOZeSGSiQUv65jOGN4;
-      expires=Sat, 19-Nov-2016 01:17:54 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=f1DAa4OUbGjHWfsTql-WM4hCDAeCMUBPLJa3ezyGoZg;
+      expires=Wed, 23-Nov-2016 20:19:47 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 17:17:54 GMT
+recorded_at: Wed, 23 Nov 2016 12:19:47 GMT
