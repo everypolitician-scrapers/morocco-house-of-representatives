@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:31:18 GMT
+    - Wed, 23 Nov 2016 11:04:15 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ebendriouich/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=srK1gx1rJWbY66zD_Pj1gWgXlgZRhtoH3_Rn69XAyfY;
-      expires=Fri, 18-Nov-2016 23:31:18 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=963wDzThZU8bjPWRRkqEVlGM6sFVZYbS76sr4yFZcG8;
+      expires=Wed, 23-Nov-2016 19:04:15 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:31:18 GMT
+recorded_at: Wed, 23 Nov 2016 11:04:15 GMT
