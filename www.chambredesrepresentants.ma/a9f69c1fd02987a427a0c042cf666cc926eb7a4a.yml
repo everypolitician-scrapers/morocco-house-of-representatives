@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 18 Nov 2016 15:26:57 GMT
+    - Wed, 23 Nov 2016 11:01:16 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/dkachal/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=VFsHj78Pc0aqXa8XBO1PkGcDQTmeQj7GMicpsPT7QfA;
-      expires=Fri, 18-Nov-2016 23:26:57 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=gHHQ1XwBPVtFh1JcGV-AiMIsmExLMbz_ZjII-lCeUzQ;
+      expires=Wed, 23-Nov-2016 19:01:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Nov 2016 15:26:57 GMT
+recorded_at: Wed, 23 Nov 2016 11:01:16 GMT
