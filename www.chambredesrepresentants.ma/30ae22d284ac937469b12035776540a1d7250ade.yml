@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:07:26 GMT
+    - Thu, 24 Nov 2016 13:40:04 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aelkihal/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=bn0Yjo2IzT8lEBLcp5l-vbwcN09hKXoOwdrAQs9UcV8;
-      expires=Wed, 23-Nov-2016 18:07:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=U_hcegV74scGEUUbm-JJW674NibUpi2_a5B4QBWlTXk;
+      expires=Thu, 24-Nov-2016 21:40:04 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:07:26 GMT
+recorded_at: Thu, 24 Nov 2016 13:40:04 GMT
