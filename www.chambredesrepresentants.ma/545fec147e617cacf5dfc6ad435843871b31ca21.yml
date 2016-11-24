@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:05:56 GMT
+    - Thu, 24 Nov 2016 17:32:53 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/nel-baidi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=gEv5PgJ35j-HFKPCh0TfZeM7awjRYesxrJriD89G28U;
-      expires=Wed, 23-Nov-2016 21:05:56 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=7kD9sesWd9DIRYljx9H5N7mY2c7xs2mJcLLDsNLIXKs;
+      expires=Fri, 25-Nov-2016 01:32:53 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:05:56 GMT
+recorded_at: Thu, 24 Nov 2016 17:32:53 GMT
