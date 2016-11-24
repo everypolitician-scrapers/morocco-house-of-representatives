@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:31:27 GMT
+    - Thu, 24 Nov 2016 20:30:01 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/rzidi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=zT9CUfM8opZA733IoL1CoKOKoMT-f2omTVvCJzBUbYg;
-      expires=Wed, 23-Nov-2016 21:31:27 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=cW_Ptqauv6-RIo0BCfqHXBkpt14Sgp9SLEMd1qHwiYI;
+      expires=Fri, 25-Nov-2016 04:30:01 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:31:27 GMT
+recorded_at: Thu, 24 Nov 2016 20:29:51 GMT
