@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:32:02 GMT
+    - Thu, 24 Nov 2016 20:30:55 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/radi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=qdw9TWRfCGFrhIunn7mTrOeCL-_f68zPHpWbPOtIdnk;
-      expires=Wed, 23-Nov-2016 21:32:02 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=k4kHQ4PnH__TPgG2ntfklLYvOpYCgHcItdNmTI43iAU;
+      expires=Fri, 25-Nov-2016 04:30:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:32:02 GMT
+recorded_at: Thu, 24 Nov 2016 20:30:45 GMT
