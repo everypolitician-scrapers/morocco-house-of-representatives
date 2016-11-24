@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:11:22 GMT
+    - Thu, 24 Nov 2016 16:22:16 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mbelcaid/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=OmT-_jiB8I5bWELOODnEQaE1VyeYJDxSgtZG-7sKzL8;
-      expires=Wed, 23-Nov-2016 20:11:22 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=GkplFHQcgIOrEdEtr1Qe-7LO51mKoBSqCdcmqBL6OpM;
+      expires=Fri, 25-Nov-2016 00:22:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:11:22 GMT
+recorded_at: Thu, 24 Nov 2016 16:22:17 GMT
