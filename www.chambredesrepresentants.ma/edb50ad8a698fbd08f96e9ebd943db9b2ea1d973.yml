@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:07:57 GMT
+    - Thu, 24 Nov 2016 14:59:12 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/eezzaazaa/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=UxtVgvkTvOZtcJsWBOrOEq_asYcuMXFPbcoSpd4mIvc;
-      expires=Wed, 23-Nov-2016 19:07:57 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=LN32jDiaHnbX4PhDdRsGbJ83i8ZBBuOUK-g0UxGkIjc;
+      expires=Thu, 24-Nov-2016 22:59:12 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:07:57 GMT
+recorded_at: Thu, 24 Nov 2016 14:59:12 GMT
