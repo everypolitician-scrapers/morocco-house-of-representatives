@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:47:19 GMT
+    - Thu, 24 Nov 2016 15:47:59 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/jelghazi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=IsMWigqCZ0tMyA96Lzt8xjUJNa9Fa9xKHEWB7j--9g0;
-      expires=Wed, 23-Nov-2016 19:47:19 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=x2-cXJ1ka6eBUbL_e-hHS_SPJeNWEtHVNdpHdVFFliA;
+      expires=Thu, 24-Nov-2016 23:47:59 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:47:19 GMT
+recorded_at: Thu, 24 Nov 2016 15:47:59 GMT
