@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:57:52 GMT
+    - Thu, 24 Nov 2016 14:45:14 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/crachadi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=vHgs0dLsFDozfuuqH4gKuVT8p8-ip3Otsstb4k7ggL4;
-      expires=Wed, 23-Nov-2016 18:57:52 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=tIxNCl2x_NjVW2u4PALSawi6F_dVGJ5O10kgt4A-PPc;
+      expires=Thu, 24-Nov-2016 22:45:14 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:57:52 GMT
+recorded_at: Thu, 24 Nov 2016 14:45:14 GMT
