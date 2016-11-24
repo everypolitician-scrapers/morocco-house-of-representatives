@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:20:21 GMT
+    - Thu, 24 Nov 2016 16:32:57 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mbouzidi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=HwJKjrG-QTCs_nlYO465rUjmoBrHFh4-gKFePhHzFL8;
-      expires=Wed, 23-Nov-2016 20:20:21 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=V7xQWgwaSy6Nv9HZ0rVPdPbWsPW3RT0FT7t6Efuvf6c;
+      expires=Fri, 25-Nov-2016 00:32:57 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:20:21 GMT
+recorded_at: Thu, 24 Nov 2016 16:32:57 GMT
