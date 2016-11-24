@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:57:08 GMT
+    - Thu, 24 Nov 2016 22:04:17 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ygharbi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Y0ylPPyNpC8zAOqxr32xhO3mm2wcJHR06jRxrzYAoXw;
-      expires=Wed, 23-Nov-2016 21:57:08 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=AjXKX-6wO9kM9XXy77riPMCRAEcBc48qFkuCqU1PQAE;
+      expires=Fri, 25-Nov-2016 06:04:17 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:57:08 GMT
+recorded_at: Thu, 24 Nov 2016 22:04:17 GMT
