@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:58:55 GMT
+    - Thu, 24 Nov 2016 17:22:58 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mzniber/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=rACrfzOtSD0DMIZUEyB4YHNnqFV5s0xv-P5FGiCSp8A;
-      expires=Wed, 23-Nov-2016 20:58:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=kc0DKdwxAvGVg-ov3gr5itiSplEnV8qRadY51cRBRRM;
+      expires=Fri, 25-Nov-2016 01:22:58 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:58:55 GMT
+recorded_at: Thu, 24 Nov 2016 17:22:58 GMT
