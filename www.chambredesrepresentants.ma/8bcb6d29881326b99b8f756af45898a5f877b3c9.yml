@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:38:27 GMT
+    - Thu, 24 Nov 2016 14:22:25 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/arabeh/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Tat1JJtkxHEo_iYYmz9QluX52nfD62P9mHP53fVF8Hc;
-      expires=Wed, 23-Nov-2016 18:38:27 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=vfa71k8ImXq0TiHHSHsHJSaC87eH29ObeQyAZh0dr-I;
+      expires=Thu, 24-Nov-2016 22:22:25 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:38:27 GMT
+recorded_at: Thu, 24 Nov 2016 14:22:25 GMT
