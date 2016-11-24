@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:03:29 GMT
+    - Thu, 24 Nov 2016 16:11:05 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mabouelfaraj/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=bSUvXVGYaTHB4vTKWYTBXw3Mwyd8LukH21lUG_fX-lU;
-      expires=Wed, 23-Nov-2016 20:03:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=OkwhnZoggTLKfl58_LSxQz1URwn3LITIFNkwpGvdT6U;
+      expires=Fri, 25-Nov-2016 00:11:05 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:03:30 GMT
+recorded_at: Thu, 24 Nov 2016 16:11:05 GMT
