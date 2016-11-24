@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:51:41 GMT
+    - Thu, 24 Nov 2016 20:57:05 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/tchakir/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=sbcHxpwS1F9cvAAPMrVHM40bwIDzxc-u1HedHDgsOmk;
-      expires=Wed, 23-Nov-2016 21:51:41 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=CmtN57SwaT5vXgNwN9zXS52q3CpLlV4dsnx5UsD0u1E;
+      expires=Fri, 25-Nov-2016 04:57:05 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:51:41 GMT
+recorded_at: Thu, 24 Nov 2016 20:57:04 GMT
