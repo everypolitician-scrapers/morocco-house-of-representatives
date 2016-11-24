@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:59:55 GMT
+    - Thu, 24 Nov 2016 22:27:06 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/zyamlahi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Riph_h0TdAD7ortQN_PPbRDKznqxQy0RVaMT7wQtycc;
-      expires=Wed, 23-Nov-2016 21:59:54 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Zeoxsxy1HLGUWs-d48a4WjezAgHZjurpgOj4Q_BlYPQ;
+      expires=Fri, 25-Nov-2016 06:27:06 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:59:54 GMT
+recorded_at: Thu, 24 Nov 2016 22:27:05 GMT
