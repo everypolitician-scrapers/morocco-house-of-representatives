@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 09:48:29 GMT
+    - Thu, 24 Nov 2016 13:16:34 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/abenhammou/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=zruTLdOQK1TjlSbR-U528uHfphsFRtpYiehEugUjXag;
-      expires=Wed, 23-Nov-2016 17:48:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Us0rQ89ue6sKiIKnERJIPVa5jkZvfxowszRcjpxt98s;
+      expires=Thu, 24-Nov-2016 21:16:34 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 09:48:29 GMT
+recorded_at: Thu, 24 Nov 2016 13:16:34 GMT
