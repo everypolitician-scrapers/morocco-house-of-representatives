@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:04:14 GMT
+    - Thu, 24 Nov 2016 17:30:34 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/nbenyahia/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=IRr7dsFiJKy7UhH6NObRpw45hjC2NBy4GH5gXshOfTc;
-      expires=Wed, 23-Nov-2016 21:04:14 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=3Wu_HY_5pa3-XKzEhyMvKyZFeLE2k5he6HwlGBPetQQ;
+      expires=Fri, 25-Nov-2016 01:30:34 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:04:14 GMT
+recorded_at: Thu, 24 Nov 2016 17:30:34 GMT
