@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:51:00 GMT
+    - Thu, 24 Nov 2016 20:56:16 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/szaki/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=IUNE8Wf_PKLpqooNPdC--ZDNH4SzJN2V17coLLSgqLQ;
-      expires=Wed, 23-Nov-2016 21:51:00 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=eRZR2DDxF3dV_Fv5I5H_8-UotEcDdWLFRs9y23dEk6U;
+      expires=Fri, 25-Nov-2016 04:56:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:51:00 GMT
+recorded_at: Thu, 24 Nov 2016 20:56:16 GMT
