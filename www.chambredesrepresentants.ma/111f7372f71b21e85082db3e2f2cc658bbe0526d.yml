@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:40:59 GMT
+    - Thu, 24 Nov 2016 15:38:47 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/hlaakroud/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=JSt_6I7obHeFB0wWxFqcraNC_KvxwyhKU10ZcYRf9Rw;
-      expires=Wed, 23-Nov-2016 19:40:59 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=2rJzVdKpzOnaql6JrFI2wZUV7JsjOPhw4URzF-ffFR4;
+      expires=Thu, 24-Nov-2016 23:38:47 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:40:59 GMT
+recorded_at: Thu, 24 Nov 2016 15:38:47 GMT
