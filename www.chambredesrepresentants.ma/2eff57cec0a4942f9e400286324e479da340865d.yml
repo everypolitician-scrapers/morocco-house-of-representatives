@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:19:56 GMT
+    - Thu, 24 Nov 2016 15:12:24 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/felkhiel/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=9F2i9faA7-MXqkPEm316jc_NIig3moZmYEyzuHSjdjI;
-      expires=Wed, 23-Nov-2016 19:19:56 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=w5wWsGnqnd6D6WayMDuMfmCvVCFhyjCHfV4R6w9PuLY;
+      expires=Thu, 24-Nov-2016 23:12:24 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:19:56 GMT
+recorded_at: Thu, 24 Nov 2016 15:12:24 GMT
