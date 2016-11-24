@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:37:30 GMT
+    - Thu, 24 Nov 2016 20:38:11 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/sboucham/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=0QIWqyOMj7oLEDyD9dVRD9Se3nJueHigBPXvEftXPEw;
-      expires=Wed, 23-Nov-2016 21:37:30 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=c6uKWAYJHh5uy1SpnQBrpFryYOAcY21BxHVe7AIzcoE;
+      expires=Fri, 25-Nov-2016 04:38:11 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:37:30 GMT
+recorded_at: Thu, 24 Nov 2016 20:38:11 GMT
