@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:12:59 GMT
+    - Thu, 24 Nov 2016 17:43:25 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/obnitto/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=_eRfYp3xW0uHBN7tRzG3G_AkRIPu6pRnRCcj-khQzXw;
-      expires=Wed, 23-Nov-2016 21:12:59 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=ca2jifzQxOtVXi8fCdOqSgXRs453VRnSgbCCQ9jdduI;
+      expires=Fri, 25-Nov-2016 01:43:25 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:12:59 GMT
+recorded_at: Thu, 24 Nov 2016 17:43:25 GMT
