@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:58:31 GMT
+    - Thu, 24 Nov 2016 14:45:59 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/croudani/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=6tUZRs0sW7KT5Me8NjTjNkFX9o1xklzPqVfs8vC2emE;
-      expires=Wed, 23-Nov-2016 18:58:31 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=3hxg6CB8KRnkUbb4e0RvbqZGHrLF_CimMRbZofG03Xc;
+      expires=Thu, 24-Nov-2016 22:45:59 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:58:31 GMT
+recorded_at: Thu, 24 Nov 2016 14:45:59 GMT
