@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:56:42 GMT
+    - Thu, 24 Nov 2016 17:19:54 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/myatim/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=URINGLJne3Y14bTeddDGA_4eG85whh2VIPGJOQc80uw;
-      expires=Wed, 23-Nov-2016 20:56:42 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=y1o30P3rEjYyX-e-V-k16EU4WPsKHtQHG5-n78URwDY;
+      expires=Fri, 25-Nov-2016 01:19:54 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:56:42 GMT
+recorded_at: Thu, 24 Nov 2016 17:19:54 GMT
