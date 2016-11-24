@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:01:50 GMT
+    - Thu, 24 Nov 2016 14:50:50 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/dlachguar/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=lWmiSRXHOT78Q-0KQvN4YUiURIoLZTayt96ER-Fnk2s;
-      expires=Wed, 23-Nov-2016 19:01:50 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=nj6vkO2F9tpwUDG5G4Ig7i_hjNmm4l_sn_-vuc75zcM;
+      expires=Thu, 24-Nov-2016 22:50:50 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:01:50 GMT
+recorded_at: Thu, 24 Nov 2016 14:50:50 GMT
