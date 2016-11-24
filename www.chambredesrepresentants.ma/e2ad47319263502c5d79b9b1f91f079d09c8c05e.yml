@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:15:30 GMT
+    - Thu, 24 Nov 2016 15:07:38 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/fbakkali/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=LFHFPfX9owD621YnNJvG-vpYMY08eQ9MnQveopSyO_w;
-      expires=Wed, 23-Nov-2016 19:15:30 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=6X6qY-KxPRWbuzO8JJixujNHbBhAFj2sz2-ZodY8cI4;
+      expires=Thu, 24-Nov-2016 23:07:38 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:15:30 GMT
+recorded_at: Thu, 24 Nov 2016 15:07:38 GMT
