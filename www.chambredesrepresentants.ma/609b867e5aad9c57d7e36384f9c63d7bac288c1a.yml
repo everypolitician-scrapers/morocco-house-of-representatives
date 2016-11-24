@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:21:00 GMT
+    - Thu, 24 Nov 2016 13:58:51 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/akandil/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=V2Kpkn7kFR1mZ8dqW9eCKOc9Ck1lhAOpSr7RumNIsBM;
-      expires=Wed, 23-Nov-2016 18:21:00 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Q7kZP89nTQtEnByklg5aNTA5h7WkpXf49fTH6b5mFz8;
+      expires=Thu, 24-Nov-2016 21:58:51 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:21:00 GMT
+recorded_at: Thu, 24 Nov 2016 13:58:51 GMT
