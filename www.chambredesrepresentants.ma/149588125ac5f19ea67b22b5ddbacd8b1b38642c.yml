@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:29:28 GMT
+    - Thu, 24 Nov 2016 16:44:39 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mghayi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Kswh1OyDKQiFs3JCK1e4SwdlgRdln7FhZGngmuP_g8A;
-      expires=Wed, 23-Nov-2016 20:29:28 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=FFqeeLp4JB3t38xq4imEf1o7wuwAY6j2X1GG5m9tOBc;
+      expires=Fri, 25-Nov-2016 00:44:39 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:29:28 GMT
+recorded_at: Thu, 24 Nov 2016 16:44:39 GMT
