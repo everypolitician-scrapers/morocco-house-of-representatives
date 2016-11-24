@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:07:17 GMT
+    - Thu, 24 Nov 2016 14:58:26 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/eelmkhanter/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=99K9vhTDUXYxZZ16x1yRYePVNxyYOQ3ae3tO2AWW2Jw;
-      expires=Wed, 23-Nov-2016 19:07:17 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=EyfvrKivB8rk5-iWlE2n7q067sg9ipCN_fT1QiLo100;
+      expires=Thu, 24-Nov-2016 22:58:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:07:17 GMT
+recorded_at: Thu, 24 Nov 2016 14:58:26 GMT
