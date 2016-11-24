@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:31:47 GMT
+    - Thu, 24 Nov 2016 15:27:44 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/hboumchita/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=LwHYHZUXQKoKpFpCjjRNEMmV7d1f3nLN0IZ34EG6SaM;
-      expires=Wed, 23-Nov-2016 19:31:47 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=hdZH8LfbQJy-VxzxpXNJg1jTB3k68KYg31SGb9hOgWw;
+      expires=Thu, 24-Nov-2016 23:27:43 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:31:47 GMT
+recorded_at: Thu, 24 Nov 2016 15:27:44 GMT
