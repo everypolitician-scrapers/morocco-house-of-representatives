@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:50:19 GMT
+    - Thu, 24 Nov 2016 20:55:29 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/sreddad/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=zqrW2mkV5b18S5DaogUdCe0EzDUMCcJaY4V8CpSG7zA;
-      expires=Wed, 23-Nov-2016 21:50:19 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=OH_JBpt54bYDjUA2R1dzGue3lEV2r-fQw821-ZwO208;
+      expires=Fri, 25-Nov-2016 04:55:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:50:19 GMT
+recorded_at: Thu, 24 Nov 2016 20:55:28 GMT
