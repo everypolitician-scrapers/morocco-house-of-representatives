@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:48:38 GMT
+    - Thu, 24 Nov 2016 17:09:01 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mrejdali/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=mayQ4Kj5LLsfj0G2py4dTf6zSr3M0ZJ7Ysqn019jcB0;
-      expires=Wed, 23-Nov-2016 20:48:38 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=d71c9Loz18nscwcPpc9RLfL_0mvaRy3ulU8QRl0pLtg;
+      expires=Fri, 25-Nov-2016 01:09:01 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:48:38 GMT
+recorded_at: Thu, 24 Nov 2016 17:09:01 GMT
