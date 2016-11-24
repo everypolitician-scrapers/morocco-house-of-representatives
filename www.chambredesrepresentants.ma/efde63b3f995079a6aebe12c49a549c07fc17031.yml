@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:37:19 GMT
+    - Thu, 24 Nov 2016 15:34:43 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/hfasly/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=ZCpn87pXdRW8s87bV-AY8BZcqzuB33eVlYh7oWJnyt4;
-      expires=Wed, 23-Nov-2016 19:37:19 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=FkDmWazy-j16PbUZYTY-bqjm6qK8Fe6TK8JeAWVcZ04;
+      expires=Thu, 24-Nov-2016 23:34:43 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:37:19 GMT
+recorded_at: Thu, 24 Nov 2016 15:34:43 GMT
