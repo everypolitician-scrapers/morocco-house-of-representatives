@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:53:31 GMT
+    - Thu, 24 Nov 2016 15:57:39 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/kessadiki/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=ppdtRCe88SV2QaPT_mnpUNickyOaFcIXUqE5j5-qBG4;
-      expires=Wed, 23-Nov-2016 19:53:31 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=oq5PQpTiAYUYlyOWmx4Xx7oRirJ6Qw62okNE5Bk_pJg;
+      expires=Thu, 24-Nov-2016 23:57:39 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:53:31 GMT
+recorded_at: Thu, 24 Nov 2016 15:57:39 GMT
