@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:49:12 GMT
+    - Thu, 24 Nov 2016 17:09:47 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mrhoulam/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=mPtB0oFG0GS3ic94vF3L-Qet1e9ErfsysGcA-aV8zM4;
-      expires=Wed, 23-Nov-2016 20:49:12 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=rXiq87LXoOdIPoaS_3pPxu3V3xkTcdIuymyAHcjwkM8;
+      expires=Fri, 25-Nov-2016 01:09:47 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:49:12 GMT
+recorded_at: Thu, 24 Nov 2016 17:09:47 GMT
