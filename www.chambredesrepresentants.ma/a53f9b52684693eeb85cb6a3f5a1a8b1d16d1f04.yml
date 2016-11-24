@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:40:30 GMT
+    - Thu, 24 Nov 2016 16:59:26 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mlachgar/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=eLrVkr4szMepDPA-69-UwUH8HKTW-kOCB22fpDFvXgg;
-      expires=Wed, 23-Nov-2016 20:40:30 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=NCpBJCBe0BQG89FrX0l8Dy5jvJzCoHIyE4qHiU2Nr0s;
+      expires=Fri, 25-Nov-2016 00:59:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:40:30 GMT
+recorded_at: Thu, 24 Nov 2016 16:59:26 GMT
