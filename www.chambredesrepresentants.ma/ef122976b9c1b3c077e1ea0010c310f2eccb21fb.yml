@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:47:49 GMT
+    - Thu, 24 Nov 2016 17:08:16 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mourriche/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=aeIfwRu-T3XYo-N1ubcMdUAkaogKLOTgTQ38AT_fK28;
-      expires=Wed, 23-Nov-2016 20:47:49 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=wgSPU-4gEO-GtA2jiVONRsDzFUs2heGEbMhMyrw8v48;
+      expires=Fri, 25-Nov-2016 01:08:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:47:49 GMT
+recorded_at: Thu, 24 Nov 2016 17:08:16 GMT
