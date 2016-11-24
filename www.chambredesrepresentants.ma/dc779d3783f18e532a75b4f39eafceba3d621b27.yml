@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:45:36 GMT
+    - Thu, 24 Nov 2016 20:49:25 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/shazim/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=lEhnMCCZmMollRraYLJjo-MqNj0WdzJQLUlxHvrRiAc;
-      expires=Wed, 23-Nov-2016 21:45:36 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=o64yxHyY1PjxGUKUw4cCzuWs2U3Ox1Y-SdZGR20s28s;
+      expires=Fri, 25-Nov-2016 04:49:25 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:45:36 GMT
+recorded_at: Thu, 24 Nov 2016 20:49:25 GMT
