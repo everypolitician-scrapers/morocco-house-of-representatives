@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:12:27 GMT
+    - Thu, 24 Nov 2016 16:23:52 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mbenabdessadeq/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Q6K2HHXPzhcfl3OPEgaHugCQpWv6xjwbhKxLXafsPe4;
-      expires=Wed, 23-Nov-2016 20:12:27 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=_s5RCzUfbnWYm9LVEfNtw0O0tWHJcdGcIbc1U2ZVRfg;
+      expires=Fri, 25-Nov-2016 00:23:52 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:12:27 GMT
+recorded_at: Thu, 24 Nov 2016 16:23:52 GMT
