@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:21:32 GMT
+    - Thu, 24 Nov 2016 19:37:42 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/relabdi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=EERJ_A_l8JG7Ej5vdbxB1fKS5FKBUi3_VL6GyXjeU2U;
-      expires=Wed, 23-Nov-2016 21:21:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Yt34Iq9B1pqvlQv2E45-s2cqG2EfhcSpABU604JaBMM;
+      expires=Fri, 25-Nov-2016 03:37:42 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:21:32 GMT
+recorded_at: Thu, 24 Nov 2016 19:37:33 GMT
