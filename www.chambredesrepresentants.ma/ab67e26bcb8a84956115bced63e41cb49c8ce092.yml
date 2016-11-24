@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:30:31 GMT
+    - Thu, 24 Nov 2016 15:25:59 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/hbenomar/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=vm7wocLAGzz5SVwbaYEbwOUnv-yi0sCucDc2VgC7DE0;
-      expires=Wed, 23-Nov-2016 19:30:31 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=dhe-Ux9myVe23ip_K5U6lH8rLF0uKJPiD_xPWS9uhTU;
+      expires=Thu, 24-Nov-2016 23:25:59 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:30:31 GMT
+recorded_at: Thu, 24 Nov 2016 15:25:59 GMT
