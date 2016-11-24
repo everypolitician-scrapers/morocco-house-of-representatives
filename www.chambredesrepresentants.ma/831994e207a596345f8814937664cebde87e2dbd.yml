@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:01:11 GMT
+    - Thu, 24 Nov 2016 16:07:48 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/lelhanssali/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=7WHVDbSBtYlOdmykdatoRZjGsc1X7rDGJGlKXpyQi88;
-      expires=Wed, 23-Nov-2016 20:01:11 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=yb43FhADvxeVVL0rZFb06mwmi1ezLQRMLkGx-eYBiyI;
+      expires=Fri, 25-Nov-2016 00:07:48 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:01:11 GMT
+recorded_at: Thu, 24 Nov 2016 16:07:48 GMT
