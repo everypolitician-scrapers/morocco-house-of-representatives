@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:19:48 GMT
+    - Thu, 24 Nov 2016 19:34:51 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/rbenmesaoud/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=6YaXyB_8X9MPipYujjkJljaM3fpXamb_wqF1ZeNff3Y;
-      expires=Wed, 23-Nov-2016 21:19:48 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=BIoD8F794t4jV0fLMdVdk-CdMJ5D37E9XjGZ52DSJkI;
+      expires=Fri, 25-Nov-2016 03:34:51 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:19:48 GMT
+recorded_at: Thu, 24 Nov 2016 19:34:43 GMT
