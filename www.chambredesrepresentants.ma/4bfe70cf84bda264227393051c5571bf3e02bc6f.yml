@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:01:34 GMT
+    - Thu, 24 Nov 2016 17:26:42 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mohamedhanine/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=CnKBQYLHZOmhm9Tp684s9ORs_Rw9wRklWrrQYNaOhsg;
-      expires=Wed, 23-Nov-2016 21:01:34 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=vd-kze5o6qpGUWM0cxomYiDi2c_A8lh2dln2s5B5Lbw;
+      expires=Fri, 25-Nov-2016 01:26:42 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:01:34 GMT
+recorded_at: Thu, 24 Nov 2016 17:26:42 GMT
