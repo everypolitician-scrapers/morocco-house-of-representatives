@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:26:39 GMT
+    - Thu, 24 Nov 2016 19:44:37 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/rroukbane/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=_-eeH7r9jgRd3BJHYgUWE4U07GB1khNJO6RmsyBfXGk;
-      expires=Wed, 23-Nov-2016 21:26:39 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=U0QjnNirMUFtL6_4lSX05swEkMShckdA_Ep4Fcc_qEQ;
+      expires=Fri, 25-Nov-2016 03:44:37 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:26:39 GMT
+recorded_at: Thu, 24 Nov 2016 19:44:28 GMT
