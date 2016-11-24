@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:23:16 GMT
+    - Thu, 24 Nov 2016 14:02:13 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/akhayr/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=D_iIdXMd5u2fYYG5qrzVNez1Py1Q27P18JdIy0DU09I;
-      expires=Wed, 23-Nov-2016 18:23:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=_3PdUSDpvAkRRuVsBQRPPvLX2W4M6IZ3XsB3-WadA7c;
+      expires=Thu, 24-Nov-2016 22:02:13 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:23:16 GMT
+recorded_at: Thu, 24 Nov 2016 14:02:13 GMT
