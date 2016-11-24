@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:48:14 GMT
+    - Thu, 24 Nov 2016 20:53:06 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/skhaya/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=ZhKcy463TcydQRVlLr_jgN-hvCD7Hv2QMkuwwXPg0XE;
-      expires=Wed, 23-Nov-2016 21:48:14 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=fvqO_VbcUWDP03tkif5mxy-niaiVCylDM640ac8Wy8k;
+      expires=Fri, 25-Nov-2016 04:53:06 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:48:14 GMT
+recorded_at: Thu, 24 Nov 2016 20:53:06 GMT
