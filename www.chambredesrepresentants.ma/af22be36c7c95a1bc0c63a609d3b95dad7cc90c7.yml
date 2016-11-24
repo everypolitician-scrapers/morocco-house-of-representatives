@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:21:45 GMT
+    - Thu, 24 Nov 2016 15:15:16 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/fgouaima/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Ln_2yxSoigvb-VtqzhSOQ_5vFXyYs6R5j4vSBVPryz0;
-      expires=Wed, 23-Nov-2016 19:21:45 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=GRJwgjNupRcEzsaE_lgoFDVxE8n8G6HmW6BP8sQMk6U;
+      expires=Thu, 24-Nov-2016 23:15:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:21:45 GMT
+recorded_at: Thu, 24 Nov 2016 15:15:16 GMT
