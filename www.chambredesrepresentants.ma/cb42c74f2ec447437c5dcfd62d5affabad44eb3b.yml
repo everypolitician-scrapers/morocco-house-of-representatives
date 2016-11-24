@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:57:16 GMT
+    - Thu, 24 Nov 2016 17:20:42 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mzekrani/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=vZdgE_UT_L_3GFt9zVZIGxVkzG5D4XLLB4EUwYjP1KA;
-      expires=Wed, 23-Nov-2016 20:57:15 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=5-JJNO2PKCcrw044gWDIhxOlixEBshCdjeT6SkgZLOU;
+      expires=Fri, 25-Nov-2016 01:20:41 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:57:16 GMT
+recorded_at: Thu, 24 Nov 2016 17:20:42 GMT
