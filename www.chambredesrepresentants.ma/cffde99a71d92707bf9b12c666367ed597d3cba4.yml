@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:04:04 GMT
+    - Thu, 24 Nov 2016 16:11:49 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mahnin/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=nKGgqT0fuzKUuNZf4-fPkW09Ut5JQkexgHWRmvPsR18;
-      expires=Wed, 23-Nov-2016 20:04:04 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=hyJFyVhGiD0VMI_IsWU6tPu1-JZwWjn-OS7ZYws5brY;
+      expires=Fri, 25-Nov-2016 00:11:49 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:04:04 GMT
+recorded_at: Thu, 24 Nov 2016 16:11:49 GMT
