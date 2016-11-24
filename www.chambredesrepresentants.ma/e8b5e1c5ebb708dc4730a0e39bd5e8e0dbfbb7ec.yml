@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:04:46 GMT
+    - Thu, 24 Nov 2016 17:31:21 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/nbouchaib/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=gGgzHP6mhh92Q1_QN-rfqPv5MRrcIfsCBRKkJeqglq4;
-      expires=Wed, 23-Nov-2016 21:04:46 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=R-bwb9xVg1PG7Cd4hgYmXWG191sjh4C_Hhngc6rO6X0;
+      expires=Fri, 25-Nov-2016 01:31:21 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:04:46 GMT
+recorded_at: Thu, 24 Nov 2016 17:31:21 GMT
