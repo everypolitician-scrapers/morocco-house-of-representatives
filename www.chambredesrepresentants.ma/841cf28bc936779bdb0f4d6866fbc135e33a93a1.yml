@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:23:45 GMT
+    - Thu, 24 Nov 2016 16:37:34 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/melbaihi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=fZQ9abJeH97lZB84wPh_jZv7tsvO2Q7NNQT3Yt1xIo8;
-      expires=Wed, 23-Nov-2016 20:23:45 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=YyEfY56X4F1Uew_gFUG9V78-dlQDPGKYQExjkZyNPuY;
+      expires=Fri, 25-Nov-2016 00:37:34 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:23:45 GMT
+recorded_at: Thu, 24 Nov 2016 16:37:34 GMT
