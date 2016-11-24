@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:40:34 GMT
+    - Thu, 24 Nov 2016 20:42:22 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/scheiguer/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=bTFNAfGCm-6hhPiwq5mYbyJo6PmbinIbrNngmzO1k6o;
-      expires=Wed, 23-Nov-2016 21:40:34 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=c0hyOiOoaeu6keip-sQOVDHR7csod_MIDV-2W3trV70;
+      expires=Fri, 25-Nov-2016 04:42:22 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:40:34 GMT
+recorded_at: Thu, 24 Nov 2016 20:42:22 GMT
