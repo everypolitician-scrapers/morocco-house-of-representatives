@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:56:32 GMT
+    - Thu, 24 Nov 2016 14:43:27 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/btaghouan/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=tmoSXLMveJSOFFKrTCw372AtOG3AIYOfptpJvc4bdwA;
-      expires=Wed, 23-Nov-2016 18:56:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=A-lw1fF7A2lyEOsUPiscP-TGVwafaTod1ZhYYpm9JkI;
+      expires=Thu, 24-Nov-2016 22:43:27 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:56:32 GMT
+recorded_at: Thu, 24 Nov 2016 14:43:27 GMT
