@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:12:28 GMT
+    - Thu, 24 Nov 2016 15:04:23 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/eouhliss/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=xVNH0lIFbHKv7sokoZmYJfE1DbS2SLgkIddH_mlqYUE;
-      expires=Wed, 23-Nov-2016 19:12:28 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=8oSLFLMQ4-qdbD8pmW8aFjFhi7Tl4qJ79zT0KQBIop0;
+      expires=Thu, 24-Nov-2016 23:04:23 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:12:28 GMT
+recorded_at: Thu, 24 Nov 2016 15:04:23 GMT
