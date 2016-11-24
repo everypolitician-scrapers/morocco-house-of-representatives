@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:30:50 GMT
+    - Thu, 24 Nov 2016 20:29:08 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/rtritah/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=hq5kB3hI03GrRM-MScZOSv1ClJUwdswCHTYmJxyBrYQ;
-      expires=Wed, 23-Nov-2016 21:30:50 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=bEXEDEwbnHQEB21GuwdRFYNCCaLHRiv5l_mi0UbD3Qo;
+      expires=Fri, 25-Nov-2016 04:29:08 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:30:50 GMT
+recorded_at: Thu, 24 Nov 2016 20:28:58 GMT
