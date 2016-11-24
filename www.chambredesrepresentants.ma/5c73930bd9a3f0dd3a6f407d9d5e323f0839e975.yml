@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:07:39 GMT
+    - Thu, 24 Nov 2016 16:16:47 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mamakraz/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=AntaMdtWzl_Omgu_f1NwLgOzSkfSdXC1WDn547chx7U;
-      expires=Wed, 23-Nov-2016 20:07:39 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=K0tP_R-JtaU85HKb8T10UUZQrXgvEiWFwZ4846fuMss;
+      expires=Fri, 25-Nov-2016 00:16:47 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:07:39 GMT
+recorded_at: Thu, 24 Nov 2016 16:16:47 GMT
