@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:59:14 GMT
+    - Thu, 24 Nov 2016 22:10:20 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ysekkouri/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=oJslfziXTfl_uD8e7Cw9G9aszqypnpEf5dXnbqI1Sh4;
-      expires=Wed, 23-Nov-2016 21:59:14 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=HCS3en-LvtujmlUPpTDqjWkxsZ4vgNDihjTRYzb5Cso;
+      expires=Fri, 25-Nov-2016 06:10:20 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:59:14 GMT
+recorded_at: Thu, 24 Nov 2016 22:10:20 GMT
