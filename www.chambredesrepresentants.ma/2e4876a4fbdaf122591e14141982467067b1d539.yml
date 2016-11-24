@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:43:46 GMT
+    - Thu, 24 Nov 2016 17:03:10 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mlaraqui/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=kSLp4A3bolLopJ_xDsdT_Whq_NxOTLqY8W1ZubCGVn8;
-      expires=Wed, 23-Nov-2016 20:43:46 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=8XAaiU2DZop1UlNGm2IJk0enYbpwUzN8UwCZQ6N5hQM;
+      expires=Fri, 25-Nov-2016 01:03:10 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:43:46 GMT
+recorded_at: Thu, 24 Nov 2016 17:03:10 GMT
