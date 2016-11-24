@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:28:55 GMT
+    - Thu, 24 Nov 2016 16:43:53 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mezzahraoui/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=2LAm0vCSjvCsfLl8wKaEhbuhNxfd5jZcdtKwhckhWQw;
-      expires=Wed, 23-Nov-2016 20:28:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=ceORk7MOL-Mio5HxSJY33R79zYSd7hLkbJ_Ak_aAQUw;
+      expires=Fri, 25-Nov-2016 00:43:53 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:28:55 GMT
+recorded_at: Thu, 24 Nov 2016 16:43:53 GMT
