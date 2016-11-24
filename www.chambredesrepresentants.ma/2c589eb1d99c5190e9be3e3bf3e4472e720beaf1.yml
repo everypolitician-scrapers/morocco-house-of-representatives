@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:10:47 GMT
+    - Thu, 24 Nov 2016 17:40:18 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/nrafik/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=_ieoDSbvl4B-zZX2SI-8NtO4wEuGkJcUudahSL_pXkg;
-      expires=Wed, 23-Nov-2016 21:10:47 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=vBBvwQbwfuiRAmmDK0v4wLx4x99A0kWO5kHKAckzs9c;
+      expires=Fri, 25-Nov-2016 01:40:18 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:10:47 GMT
+recorded_at: Thu, 24 Nov 2016 17:40:18 GMT
