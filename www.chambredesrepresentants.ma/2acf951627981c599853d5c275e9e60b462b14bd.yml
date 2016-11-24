@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:56:26 GMT
+    - Thu, 24 Nov 2016 21:05:43 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/ybensliman/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=bf4VpY-7bGY40vJyJ0Cebb6OiGkcMiHcaAntbB0L5aQ;
-      expires=Wed, 23-Nov-2016 21:56:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=6YLt_RJNg_B_Q3nd-V9tK9OrrrnZ4c-NB5Rp_Lr1xgQ;
+      expires=Fri, 25-Nov-2016 05:05:43 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:56:26 GMT
+recorded_at: Thu, 24 Nov 2016 21:05:42 GMT
