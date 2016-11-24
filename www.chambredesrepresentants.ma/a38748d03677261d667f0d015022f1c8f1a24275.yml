@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:53:25 GMT
+    - Thu, 24 Nov 2016 14:39:04 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/bhasnaoui/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=jofaqRNQnQ62enibTXSOpcCg4pkHw7GPuOMAODljDAw;
-      expires=Wed, 23-Nov-2016 18:53:25 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=JtfipZl7JUE332DmW790P0BKQpjHKlw4a8IF9JGrxgc;
+      expires=Thu, 24-Nov-2016 22:39:04 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:53:25 GMT
+recorded_at: Thu, 24 Nov 2016 14:39:04 GMT
