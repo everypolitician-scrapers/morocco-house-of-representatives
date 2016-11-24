@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:48:29 GMT
+    - Thu, 24 Nov 2016 15:50:02 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/jhamedoun/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=DhFq1qfaw8KSlF1B_wUc6Ru6Vkl4_O_QoUliHpIUSv0;
-      expires=Wed, 23-Nov-2016 19:48:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=-xOHrJxzXqEtj146L-SWHRdFLsYMF5T-kBPshz8hjOU;
+      expires=Thu, 24-Nov-2016 23:50:01 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:48:29 GMT
+recorded_at: Thu, 24 Nov 2016 15:50:02 GMT
