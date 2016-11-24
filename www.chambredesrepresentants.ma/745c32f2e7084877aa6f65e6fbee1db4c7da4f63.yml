@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 10:04:35 GMT
+    - Thu, 24 Nov 2016 13:37:16 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/aelboukili/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=M2DSIzebiA_2Jox0V9SHXUA85fMz_f3KodKks-zTlno;
-      expires=Wed, 23-Nov-2016 18:04:35 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=YgxtbLwUi5N9kWzlQYv8Tw7Gk1vmkaNAcCMb6Hc4B_E;
+      expires=Thu, 24-Nov-2016 21:37:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 10:04:35 GMT
+recorded_at: Thu, 24 Nov 2016 13:37:16 GMT
