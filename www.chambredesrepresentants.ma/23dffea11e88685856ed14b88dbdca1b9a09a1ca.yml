@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:19:22 GMT
+    - Thu, 24 Nov 2016 15:11:26 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/felbayed/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=oqyyBaDCxu1H4NbR7JSJqNBfPOC7Eu2Uke-toSHIxfE;
-      expires=Wed, 23-Nov-2016 19:19:22 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=-fDbRDRpI9Oh6U1kq2H7GI0_pztsWV_Zjs5LC3xONt0;
+      expires=Thu, 24-Nov-2016 23:11:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:19:22 GMT
+recorded_at: Thu, 24 Nov 2016 15:11:26 GMT
