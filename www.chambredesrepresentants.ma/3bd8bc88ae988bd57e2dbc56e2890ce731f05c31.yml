@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 12:31:16 GMT
+    - Thu, 24 Nov 2016 16:46:52 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/mhajjouji/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=Vl8v2TSDhWC-hmAK2ooRqTROnUIiArMclyQMg7wMa5M;
-      expires=Wed, 23-Nov-2016 20:31:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Gc8G-9rREG1q4HNb00HU6-Nea5UaHeVuovNoQfReGuM;
+      expires=Fri, 25-Nov-2016 00:46:52 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 12:31:16 GMT
+recorded_at: Thu, 24 Nov 2016 16:46:52 GMT
