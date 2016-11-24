@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:29:04 GMT
+    - Thu, 24 Nov 2016 19:48:26 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/rtamek/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=33Hw2mCjZwzRey2AmkuDjyMxOOpJi8WjUWoEDLkobtw;
-      expires=Wed, 23-Nov-2016 21:29:03 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=Goy40dHaoiN74I2CdGpYPwJ_8h3ztxBbKqX42M0Erp0;
+      expires=Fri, 25-Nov-2016 03:48:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:29:04 GMT
+recorded_at: Thu, 24 Nov 2016 19:48:17 GMT
