@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:51:41 GMT
+    - Thu, 24 Nov 2016 15:54:56 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/keladi/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=IcKZ4ilrvT1QUx7-ayfMo3gprdbdmLH1ulEa8f7qDFc;
-      expires=Wed, 23-Nov-2016 19:51:41 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=7D3K45Y2JjojWBD4UmsklX2T_SUy7gjjkoaj3s2-AAY;
+      expires=Thu, 24-Nov-2016 23:54:56 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:51:41 GMT
+recorded_at: Thu, 24 Nov 2016 15:54:56 GMT
