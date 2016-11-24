@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:03:07 GMT
+    - Thu, 24 Nov 2016 17:29:02 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/naloui/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=r3h3hUf8rKQBHgPYhjSvxgUdTWcBP_CqqIMPPSrJoiM;
-      expires=Wed, 23-Nov-2016 21:03:07 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=KgS1F1ZHPmd3IgtCJDlicM4jp3LysZtM6w-M2rYpbPo;
+      expires=Fri, 25-Nov-2016 01:29:02 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:03:07 GMT
+recorded_at: Thu, 24 Nov 2016 17:29:02 GMT
