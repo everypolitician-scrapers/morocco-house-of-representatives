@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 13:10:14 GMT
+    - Thu, 24 Nov 2016 17:39:32 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/nrabbaa/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=G6wM_9DMnR7hpydKVScDNK-6udL1LdTHpyF-JrPm0pk;
-      expires=Wed, 23-Nov-2016 21:10:14 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=rS1FuBrtlg4-cekoHgNkKwPFSFd3pU9Bkv5JuzR5qBs;
+      expires=Fri, 25-Nov-2016 01:39:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 13:10:14 GMT
+recorded_at: Thu, 24 Nov 2016 17:39:32 GMT
