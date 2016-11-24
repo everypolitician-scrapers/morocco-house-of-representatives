@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Wed, 23 Nov 2016 11:21:09 GMT
+    - Thu, 24 Nov 2016 15:14:12 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -38,10 +38,10 @@ response:
     Location:
     - /en/m/felomari/agenda
     Set-Cookie:
-    - SESS47871d5cbc78b7f242d88c608ad4fd63=WQ5Db2CMUGVKR6gOmrAY0zLwOa4DrmcB8v-qkhsBCsk;
-      expires=Wed, 23-Nov-2016 19:21:09 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
+    - SESS47871d5cbc78b7f242d88c608ad4fd63=m4Fi6lSd-z1diFZ0yk3dYJ5i2rmtgzNEHaBTX2XTJgo;
+      expires=Thu, 24-Nov-2016 23:14:12 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
       HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 23 Nov 2016 11:21:09 GMT
+recorded_at: Thu, 24 Nov 2016 15:14:12 GMT
