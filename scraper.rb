@@ -44,4 +44,4 @@ def scrape_list(url)
   scrape_list URI.join(url, nexturl) if nexturl
 end
 
-scrape_list('http://www.chambredesrepresentants.ma/en/members-house-representatives/all/all/all/all/all/all/all/all')
+scrape_list('http://www.chambredesrepresentants.ma/en/members-house-representatives')
