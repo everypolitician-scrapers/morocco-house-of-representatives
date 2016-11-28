@@ -35,8 +35,10 @@ def scrape_list(url)
       term: 9,
     }
     member_url = li.css('h2.name a/@href').text
+    unless member_url.to_s.empty?
+      data[:source] = URI.decode(URI.join(url, URI.escape(member_url)).to_s)
+    end
     data[:name] = 'Kamal Abdel Fattah' if data[:id] == 'akamal' # No name in English version
-    data[:source] = URI.decode(URI.join(url, URI.escape(member_url)).to_s) unless member_url.to_s.empty?
     ScraperWiki.save_sqlite([:id, :term], data)
   end
 
