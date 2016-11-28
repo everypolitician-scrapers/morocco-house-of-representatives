@@ -31,12 +31,12 @@ def scrape_list(url)
       name: li.css('h2.name').text.tidy,
       party: li.css('a.link span').first.text,
       faction: li.css('a.link span').last.text,
-      source: li.css('h2.name a/@href').text,
       image: li.css('a.figure img/@src').text,
       term: 9,
     }
+    member_url = li.css('h2.name a/@href').text
     data[:name] = 'Kamal Abdel Fattah' if data[:id] == 'akamal' # No name in English version
-    data[:source] = URI.decode(URI.join(url, URI.escape(data[:source])).to_s) unless data[:source].to_s.empty?
+    data[:source] = URI.decode(URI.join(url, URI.escape(member_url)).to_s) unless member_url.to_s.empty?
     ScraperWiki.save_sqlite([:id, :term], data)
   end
 
