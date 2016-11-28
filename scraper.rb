@@ -37,6 +37,7 @@ def scrape_list(url)
     member_url = li.css('h2.name a/@href').text
     unless member_url.to_s.empty?
       data[:source] = URI.decode(URI.join(url, URI.escape(member_url)).to_s)
+      data[:name__ar] = noko_for(data[:source].sub('/en/','/ar/').to_s).at_css('.top_sz_title').text.tidy
     end
     data[:name] = 'Kamal Abdel Fattah' if data[:id] == 'akamal' # No name in English version
     ScraperWiki.save_sqlite([:id, :term], data)
