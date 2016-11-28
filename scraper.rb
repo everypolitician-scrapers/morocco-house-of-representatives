@@ -37,7 +37,7 @@ def scrape_list(url)
     }
     data[:name] = 'Kamal Abdel Fattah' if data[:id] == 'akamal' # No name in English version
     data[:source] = URI.join(url, URI.escape(data[:source])).to_s unless data[:source].to_s.empty?
-    ScraperWiki.save_sqlite([:id, :term], data)
+    ScraperWiki.save_sqlite([:id, :term], data) unless data[:name] == 'Vaccant Poste'
   end
 
   nexturl = noko.css('li.next a/@href').first.text rescue nil
