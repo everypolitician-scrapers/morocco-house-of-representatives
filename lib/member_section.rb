@@ -18,7 +18,7 @@ class MemberSection < Scraped::HTML
   end
 
   field :source do
-    noko.css('h2.name a/@href').text
+    URI.join(url, noko.css('h2.name a/@href').text).to_s
   end
 
   field :image do
