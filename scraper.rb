@@ -26,11 +26,12 @@ end
 def scrape_list(url)
   noko = noko_for(url)
 
-  noko.css('ul.lisitng_resultat li').each do |li|
-    member = MemberSection.new(response: Scraped::Request.new(url: url).response, noko: li)
-    puts member.name
-    ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
-  end
+  MembersPage.new(response: Scraped::Request.new(url: url).response, noko: noko)
+             .members
+             .each do |member|
+                puts member
+                ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
+              end
 
   nexturl = noko.css('li.next a/@href').first.text rescue nil
   scrape_list URI.join(url, nexturl) if nexturl
