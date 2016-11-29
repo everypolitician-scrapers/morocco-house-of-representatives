@@ -31,7 +31,6 @@ def scrape_list(url)
   MembersPage.new(response: Scraped::Request.new(url: url).response(decorators: [AbsoluteLinks]), noko: noko)
              .members
              .each do |member|
-                puts member
                 ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
               end
 
