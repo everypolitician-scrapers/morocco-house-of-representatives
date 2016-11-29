@@ -28,7 +28,7 @@ def scrape_list(url)
   noko = noko_for(url)
   puts url.to_s.yellow
 
-  MembersPage.new(response: Scraped::Request.new(url: url).response(decorators: [AbsoluteLinks]), noko: noko)
+  MembersPage.new(response: Scraped::Request.new(url: url).response, noko: noko)
              .members
              .each do |member|
                 ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
