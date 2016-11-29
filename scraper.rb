@@ -5,6 +5,9 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'open-uri'
 require 'colorize'
+require 'require_all'
+
+require_rel 'lib'
 
 require 'pry'
 require 'open-uri/cached'
