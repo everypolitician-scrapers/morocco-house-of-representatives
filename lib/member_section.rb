@@ -29,10 +29,6 @@ class MemberSection < Scraped::HTML
     9
   end
 
-  field :source do
-     noko.css('h2.name a/@href').text
-  end
-
   private
 
   def member_name
