@@ -33,6 +33,8 @@ class MemberSection < Scraped::HTML
      noko.css('h2.name a/@href').text
   end
 
+  private
+
   def member_name
     return 'Kamal Abdel Fattah' if id == 'akamal' # No name in English version
     noko.css('h2.name').text.tidy
