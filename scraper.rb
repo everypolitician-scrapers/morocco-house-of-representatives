@@ -26,7 +26,6 @@ end
 
 def scrape_list(url)
   noko = noko_for(url)
-  puts url.to_s.yellow
 
   MembersPage.new(response: Scraped::Request.new(url: url).response, noko: noko)
              .members
