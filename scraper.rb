@@ -19,8 +19,9 @@ end
 
 def noko_for(url)
   puts "About to open #{url}..."
-  Nokogiri::HTML(open(url).read)
+  noko = Nokogiri::HTML(open(url).read)
   puts "Opened #{url}!"
+  noko
   # Nokogiri::HTML(open(url).read, nil, 'utf-8')
 end
 
