@@ -30,15 +30,11 @@ class MemberSection < Scraped::HTML
   end
 
   field :source do
-     member_url
+     noko.css('h2.name a/@href').text
   end
 
   def member_name
     return 'Kamal Abdel Fattah' if id == 'akamal' # No name in English version
     noko.css('h2.name').text.tidy
-  end
-
-  def member_url
-    URI.join(url, URI.escape(noko.css('h2.name a/@href').text)).to_s
   end
 end
