@@ -4,7 +4,6 @@
 require 'scraperwiki'
 require 'nokogiri'
 require 'open-uri'
-require 'colorize'
 
 require 'pry'
 require 'open-uri/cached'
@@ -23,7 +22,6 @@ end
 
 def scrape_list(url)
   noko = noko_for(url)
-  puts url.to_s.yellow
 
   noko.css('ul.lisitng_resultat li').each do |li|
     data = { 

@@ -7,7 +7,6 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 ruby '2.3.1'
 
-gem 'colorize'
 gem 'nokogiri'
 gem 'open-uri-cached'
 gem 'pry'
