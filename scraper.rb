@@ -4,6 +4,9 @@
 require 'scraperwiki'
 require 'nokogiri'
 require 'open-uri'
+require 'require_all'
+
+require_rel 'lib'
 
 require 'pry'
 require 'open-uri/cached'
@@ -11,7 +14,7 @@ OpenURI::Cache.cache_path = '.cache'
 
 class String
   def tidy
-    self.gsub(/[[:space:]]+/, ' ').strip
+    gsub(/[[:space:]]+/, ' ').strip
   end
 end
 
@@ -23,23 +26,14 @@ end
 def scrape_list(url)
   noko = noko_for(url)
 
-  noko.css('ul.lisitng_resultat li').each do |li|
-    data = { 
-      id: li.css('h2.name a/@href').text.split("/").last,
-      name: li.css('h2.name').text.tidy,
-      party: li.css('a.link span').first.text,
-      faction: li.css('a.link span').last.text,
-      source: li.css('h2.name a/@href').text,
-      image: li.css('a.figure img/@src').text,
-      term: 9,
-    }
-    data[:name] = 'Kamal Abdel Fattah' if data[:id] == 'akamal' # No name in English version
-    data[:source] = URI.join(url, URI.escape(data[:source])).to_s unless data[:source].to_s.empty?
-    ScraperWiki.save_sqlite([:id, :term], data) unless data[:name] == 'Vaccant Poste'
+  MembersPage.new(response: Scraped::Request.new(url: url).response, noko: noko)
+             .members
+             .each do |member|
+    ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
   end
 
-  nexturl = noko.css('li.next a/@href').first.text rescue nil
-  scrape_list URI.join(url, nexturl) if nexturl
+  nexturl = noko.at_css('li.next a/@href')
+  scrape_list URI.join(url, nexturl.text) if nexturl
 end
 
 scrape_list('http://www.chambredesrepresentants.ma/en/members-house-representatives')
