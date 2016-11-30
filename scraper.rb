@@ -32,12 +32,8 @@ def scrape_list(url)
     ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
   end
 
-  nexturl = begin
-              noko.css('li.next a/@href').first.text
-            rescue
-              nil
-            end
-  scrape_list URI.join(url, nexturl) if nexturl
+  nexturl = noko.at_css('li.next a/@href')
+  scrape_list URI.join(url, nexturl.text) if nexturl
 end
 
 scrape_list('http://www.chambredesrepresentants.ma/en/members-house-representatives')
