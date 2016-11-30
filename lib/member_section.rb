@@ -35,4 +35,8 @@ class MemberSection < Scraped::HTML
   def member_url_en
     URI.join(url, noko.css('h2.name a/@href').text).to_s
   end
+
+  def member_url_ar
+    member_url_en.sub('/en/','/ar/')
+  end
 end
