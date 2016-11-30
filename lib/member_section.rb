@@ -10,6 +10,11 @@ class MemberSection < Scraped::HTML
     noko.css('h2.name').text.tidy
   end
 
+  field :name__ar do
+    MemberPage.new(response: Scraped::Request.new(url: member_url_ar).response)
+              .name
+  end
+
   field :party do
     noko.css('a.link span').first.text
   end
