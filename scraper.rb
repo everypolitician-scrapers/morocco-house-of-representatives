@@ -2,7 +2,6 @@
 # encoding: utf-8
 
 require 'scraperwiki'
-require 'nokogiri'
 require 'open-uri'
 require 'require_all'
 
@@ -18,22 +17,13 @@ class String
   end
 end
 
-def noko_for(url)
-  Nokogiri::HTML(open(url).read)
-  # Nokogiri::HTML(open(url).read, nil, 'utf-8')
-end
-
-def scrape_list(url)
-  noko = noko_for(url)
-
-  MembersPage.new(response: Scraped::Request.new(url: url).response, noko: noko)
-             .members
-             .each do |member|
+def scrape_list_page(url)
+  page = MembersPage.new(response: Scraped::Request.new(url: url).response)
+  page.members.each do |member|
     ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
   end
 
-  nexturl = noko.at_css('li.next a/@href')
-  scrape_list URI.join(url, nexturl.text) if nexturl
+  scrape_list_page page.next_page if page.next_page
 end
 
-scrape_list('http://www.chambredesrepresentants.ma/en/members-house-representatives')
+scrape_list_page('http://www.chambredesrepresentants.ma/en/members-house-representatives')
