@@ -19,14 +19,14 @@ end
 
 def scrape_list_page(url)
   page = MembersPage.new(response: Scraped::Request.new(url: url).response)
-  page.members.each do |member|
+  page.members.reject { |m| m.name == 'Vaccant Poste' }.each.each do |member|
     arabic_member_page = MemberPage.new(
       response: Scraped::Request.new(
         url: member.source.sub('/en/', '/ar/')
       ).response
     )
     data = member.to_h.merge(name__ar: arabic_member_page.name)
-    ScraperWiki.save_sqlite([:id, :term], data) unless member.name == 'Vaccant Poste'
+    ScraperWiki.save_sqlite([:id, :term], data)
   end
 
   scrape_list_page page.next_page if page.next_page
