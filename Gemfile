@@ -7,13 +7,10 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 ruby '2.3.1'
 
-gem 'scraperwiki', github: 'openaustralia/scraperwiki-ruby',
-                   branch: 'morph_defaults'
-gem 'execjs'
-gem 'pry'
 gem 'colorize'
 gem 'nokogiri'
 gem 'open-uri-cached'
-gem 'fuzzy_match'
-gem 'wikidata-client', '~> 0.0.7', require: 'wikidata'
+gem 'pry'
 gem 'scraped', github: 'everypolitician/scraped'
+gem 'scraperwiki', github: 'openaustralia/scraperwiki-ruby',
+                   branch: 'morph_defaults'
