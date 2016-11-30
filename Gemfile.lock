@@ -20,7 +20,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.0)
-    colorize (0.7.7)
     field_serializer (0.2.0)
     httpclient (2.8.2.4)
     method_source (0.8.2)
@@ -42,7 +41,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  colorize
   nokogiri
   open-uri-cached
   pry
