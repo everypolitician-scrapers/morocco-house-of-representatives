@@ -14,7 +14,7 @@ OpenURI::Cache.cache_path = '.cache'
 
 class String
   def tidy
-    self.gsub(/[[:space:]]+/, ' ').strip
+    gsub(/[[:space:]]+/, ' ').strip
   end
 end
 
@@ -29,10 +29,14 @@ def scrape_list(url)
   MembersPage.new(response: Scraped::Request.new(url: url).response, noko: noko)
              .members
              .each do |member|
-                ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
-              end
+    ScraperWiki.save_sqlite([:id, :term], member.to_h) unless member.name == 'Vaccant Poste'
+  end
 
-  nexturl = noko.css('li.next a/@href').first.text rescue nil
+  nexturl = begin
+              noko.css('li.next a/@href').first.text
+            rescue
+              nil
+            end
   scrape_list URI.join(url, nexturl) if nexturl
 end
 
