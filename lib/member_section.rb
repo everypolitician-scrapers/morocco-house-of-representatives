@@ -6,7 +6,8 @@ class MemberSection < Scraped::HTML
   end
 
   field :name do
-    member_name
+    return 'Kamal Abdel Fattah' if id == 'akamal' # No name in English version
+    noko.css('h2.name').text.tidy
   end
 
   field :party do
@@ -27,12 +28,5 @@ class MemberSection < Scraped::HTML
 
   field :term do
     9
-  end
-
-  private
-
-  def member_name
-    return 'Kamal Abdel Fattah' if id == 'akamal' # No name in English version
-    noko.css('h2.name').text.tidy
   end
 end
