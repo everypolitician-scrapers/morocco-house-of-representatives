@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/rbenmesaoud/agenda
+    - "/en/m/rbenmesaoud/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=BIoD8F794t4jV0fLMdVdk-CdMJ5D37E9XjGZ52DSJkI;
       expires=Fri, 25-Nov-2016 03:34:51 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
