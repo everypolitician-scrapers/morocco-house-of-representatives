@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/%D8%B2%D9%83%D8%B1%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%AA%D9%88%D9%8A/agenda
+    - "/en/m/%D8%B2%D9%83%D8%B1%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%AA%D9%88%D9%8A/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=r5SS3OjrYEMx_AsV2JlC8VVZvLoJRhLNockSBXdqWjM;
       expires=Fri, 25-Nov-2016 06:29:29 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
