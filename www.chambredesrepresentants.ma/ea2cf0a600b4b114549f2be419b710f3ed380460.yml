@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/mtadoumant/agenda
+    - "/en/m/mtadoumant/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=CSWADBjOCl6ng6P_EGuVlv4VoOUlP3A4aMDa5RlHI-w;
       expires=Fri, 25-Nov-2016 01:16:33 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
