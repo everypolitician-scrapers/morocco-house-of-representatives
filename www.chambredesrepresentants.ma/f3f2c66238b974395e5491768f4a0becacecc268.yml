@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/rslimani/agenda
+    - "/en/m/rslimani/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=tKkYacy3L5aOm6rCqKQYJsz7MAPQ6iTa-7W_2S3wgEQ;
       expires=Fri, 25-Nov-2016 03:45:37 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
