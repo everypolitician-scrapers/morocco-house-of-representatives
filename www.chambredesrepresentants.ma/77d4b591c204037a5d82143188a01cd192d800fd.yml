@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/rroukbane/agenda
+    - "/en/m/rroukbane/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=U0QjnNirMUFtL6_4lSX05swEkMShckdA_Ep4Fcc_qEQ;
       expires=Fri, 25-Nov-2016 03:44:37 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
