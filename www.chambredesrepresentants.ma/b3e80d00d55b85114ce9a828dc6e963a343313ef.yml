@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - fr
     Location:
-    - /fr/m/%D8%B2%D9%83%D8%B1%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%AA%D9%88%D9%8A/agenda
+    - "/fr/m/%D8%B2%D9%83%D8%B1%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%AA%D9%88%D9%8A/agenda"
   body:
     encoding: UTF-8
   http_version: 
