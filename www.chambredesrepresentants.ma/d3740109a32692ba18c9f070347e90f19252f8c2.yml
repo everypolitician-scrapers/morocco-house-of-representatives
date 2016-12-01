@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/mzouitene/agenda
+    - "/en/m/mzouitene/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=CaT_i0heQBA0xWwH_LsgRWt2Lrv944rQsVEPpsH4DAo;
       expires=Fri, 25-Nov-2016 01:23:44 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
