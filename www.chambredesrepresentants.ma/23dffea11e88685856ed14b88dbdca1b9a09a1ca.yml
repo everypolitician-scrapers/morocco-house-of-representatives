@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/felbayed/agenda
+    - "/en/m/felbayed/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=-fDbRDRpI9Oh6U1kq2H7GI0_pztsWV_Zjs5LC3xONt0;
       expires=Thu, 24-Nov-2016 23:11:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
