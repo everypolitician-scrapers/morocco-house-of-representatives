@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/mahrarad/agenda
+    - "/en/m/mahrarad/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=YIUSsKz7G4kfkCaO8NSQIIwJbvCu8AqxcrD4PHPs4gw;
       expires=Fri, 25-Nov-2016 00:12:32 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
