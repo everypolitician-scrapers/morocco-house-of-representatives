@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - fr
     Location:
-    - /fr/m/mlahmouch/agenda
+    - "/fr/m/mlahmouch/agenda"
   body:
     encoding: UTF-8
   http_version: 
