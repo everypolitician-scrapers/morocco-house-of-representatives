@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/obenabdellah/agenda
+    - "/en/m/obenabdellah/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=KrjGq-IXFe0Vl8Ir6dxzxF5n8YiDIYS5-cFn0cTQkFI;
       expires=Fri, 25-Nov-2016 01:42:38 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
