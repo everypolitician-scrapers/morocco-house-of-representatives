@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/mbelcaid/agenda
+    - "/en/m/mbelcaid/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=GkplFHQcgIOrEdEtr1Qe-7LO51mKoBSqCdcmqBL6OpM;
       expires=Fri, 25-Nov-2016 00:22:16 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
