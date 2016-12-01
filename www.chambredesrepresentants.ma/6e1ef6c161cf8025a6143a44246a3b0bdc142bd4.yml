@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/mboubakr/agenda
+    - "/en/m/mboubakr/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=UAiG9RiFNJ2APMY17Nsfrl7Wbqbth13pYo0iUuYbL24;
       expires=Fri, 25-Nov-2016 00:29:10 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
