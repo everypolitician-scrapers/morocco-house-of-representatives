@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/eelmkhanter/agenda
+    - "/en/m/eelmkhanter/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=EyfvrKivB8rk5-iWlE2n7q067sg9ipCN_fT1QiLo100;
       expires=Thu, 24-Nov-2016 22:58:26 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
