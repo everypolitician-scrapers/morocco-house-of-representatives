@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/crachadi/agenda
+    - "/en/m/crachadi/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=tIxNCl2x_NjVW2u4PALSawi6F_dVGJ5O10kgt4A-PPc;
       expires=Thu, 24-Nov-2016 22:45:14 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
