@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/hbenomar/agenda
+    - "/en/m/hbenomar/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=dhe-Ux9myVe23ip_K5U6lH8rLF0uKJPiD_xPWS9uhTU;
       expires=Thu, 24-Nov-2016 23:25:59 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
