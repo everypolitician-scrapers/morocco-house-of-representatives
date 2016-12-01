@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/akhayr/agenda
+    - "/en/m/akhayr/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=_3PdUSDpvAkRRuVsBQRPPvLX2W4M6IZ3XsB3-WadA7c;
       expires=Thu, 24-Nov-2016 22:02:13 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
