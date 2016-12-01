@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/mbouchnif/agenda
+    - "/en/m/mbouchnif/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=9mVcW8iyVtSRtHmwlSjDkS82ttxLdkAp91--IbJYENA;
       expires=Fri, 25-Nov-2016 00:29:55 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
