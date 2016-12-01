@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/schaker-metalssi/agenda
+    - "/en/m/schaker-metalssi/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=ZWOX9aGo2leuPSSdSeFlNSFL7IVkV8pk19Qi_3sTM9U;
       expires=Fri, 25-Nov-2016 04:41:37 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
