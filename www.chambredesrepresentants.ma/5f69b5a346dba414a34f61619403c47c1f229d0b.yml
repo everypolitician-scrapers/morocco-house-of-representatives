@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/rjbiyel/agenda
+    - "/en/m/rjbiyel/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=wXUZD0Dff3r9K2eiOp8FEN2bbR_cxQlYuV94AtygpFg;
       expires=Fri, 25-Nov-2016 03:41:52 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
