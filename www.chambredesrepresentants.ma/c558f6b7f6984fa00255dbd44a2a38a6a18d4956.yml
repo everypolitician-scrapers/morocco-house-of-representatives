@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/fdarkaoui/agenda
+    - "/en/m/fdarkaoui/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=e3fxV1MXJDiG0opQFOOoB5gKJ35z_876RewUeEE2NiI;
       expires=Thu, 24-Nov-2016 23:10:44 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
