@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/aaberni/agenda
+    - "/en/m/aaberni/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=vyAOhOQxyP9b3tPu0zu2K6bv8QzUZ_wdSD7v5ycOGto;
       expires=Thu, 24-Nov-2016 20:59:21 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
