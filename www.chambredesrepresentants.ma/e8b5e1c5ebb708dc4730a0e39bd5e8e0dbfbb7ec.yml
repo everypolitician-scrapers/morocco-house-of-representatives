@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -36,7 +36,7 @@ response:
     Content-Language:
     - en
     Location:
-    - /en/m/nbouchaib/agenda
+    - "/en/m/nbouchaib/agenda"
     Set-Cookie:
     - SESS47871d5cbc78b7f242d88c608ad4fd63=R-bwb9xVg1PG7Cd4hgYmXWG191sjh4C_Hhngc6rO6X0;
       expires=Fri, 25-Nov-2016 01:31:21 GMT; Max-Age=28800; path=/; domain=.chambredesrepresentants.ma;
