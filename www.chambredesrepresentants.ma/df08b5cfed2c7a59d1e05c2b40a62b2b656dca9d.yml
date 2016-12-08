@@ -1,0 +1,43 @@
+---
+request:
+  method: get
+  uri: http://www.chambredesrepresentants.ma/ar/m/ajoubij
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 302
+    message: Moved Temporarily
+  headers:
+    Server:
+    - nginx
+    Date:
+    - Thu, 08 Dec 2016 22:19:51 GMT
+    Content-Type:
+    - text/html; charset=utf-8
+    Transfer-Encoding:
+    - chunked
+    Connection:
+    - keep-alive
+    X-Powered-By:
+    - PHP/5.5.9-1ubuntu4.20
+    Expires:
+    - Sun, 19 Nov 1978 05:00:00 GMT
+    Cache-Control:
+    - no-cache, must-revalidate
+    Content-Language:
+    - ar
+    Location:
+    - "/ar/m/ajoubij/%D8%A3%D8%AC%D9%86%D8%AF%D8%A9"
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Thu, 08 Dec 2016 22:19:51 GMT
