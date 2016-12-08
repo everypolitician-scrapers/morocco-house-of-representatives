@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Mon, 05 Dec 2016 15:49:33 GMT
+    - Thu, 08 Dec 2016 17:46:53 GMT
     Content-Type:
     - text/html; charset=utf-8
     Transfer-Encoding:
@@ -30,7 +30,7 @@ response:
     X-Powered-By:
     - PHP/5.5.9-1ubuntu4.20
     Etag:
-    - '"1480952971-1"'
+    - '"1481219212-1"'
     Content-Language:
     - en
     Link:
@@ -39,7 +39,7 @@ response:
     Cache-Control:
     - public, max-age=1800
     Last-Modified:
-    - Mon, 05 Dec 2016 15:49:31 GMT
+    - Thu, 08 Dec 2016 17:46:52 GMT
     Expires:
     - Sun, 19 Nov 1978 05:00:00 GMT
     Vary:
@@ -48,4 +48,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 05 Dec 2016 15:49:33 GMT
+recorded_at: Thu, 08 Dec 2016 17:46:54 GMT
