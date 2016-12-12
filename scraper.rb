@@ -19,7 +19,7 @@ end
 
 def scrape_list_page(url)
   page = MembersPage.new(response: Scraped::Request.new(url: url).response)
-  page.members.reject { |m| m.name == 'Vaccant Poste' }.each.each do |member|
+  page.members.reject { |m| m.name == 'Vaccant Poste' }.each do |member|
     arabic_member_page = MemberPage.new(
       response: Scraped::Request.new(
         url: member.source.sub('/en/', '/ar/')
