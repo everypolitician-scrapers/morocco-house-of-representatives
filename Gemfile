@@ -10,6 +10,8 @@ ruby '2.3.1'
 gem 'nokogiri'
 gem 'open-uri-cached'
 gem 'pry'
+gem 'rake'
+gem 'rubocop'
 gem 'scraped', github: 'everypolitician/scraped'
 gem 'scraperwiki', github: 'openaustralia/scraperwiki-ruby',
                    branch: 'morph_defaults'
