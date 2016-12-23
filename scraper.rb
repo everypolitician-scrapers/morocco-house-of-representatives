@@ -1,5 +1,6 @@
 #!/bin/env ruby
 # encoding: utf-8
+# frozen_string_literal: true
 
 require 'scraperwiki'
 require 'open-uri'
@@ -26,7 +27,7 @@ def scrape_list_page(url)
       ).response
     )
     data = member.to_h.merge(name__ar: arabic_member_page.name)
-    ScraperWiki.save_sqlite([:id, :term], data)
+    ScraperWiki.save_sqlite(%i(id term), data)
   end
 
   scrape_list_page page.next_page if page.next_page

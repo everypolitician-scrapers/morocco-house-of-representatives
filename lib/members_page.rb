@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'scraped'
 
 class MembersPage < Scraped::HTML
@@ -8,7 +9,7 @@ class MembersPage < Scraped::HTML
   end
 
   field :next_page do
-    nexturl = noko.at_css('li.next a/@href') or return
+    return unless nexturl = noko.at_css('li.next a/@href')
     URI.join(url, nexturl.text)
   end
 end
