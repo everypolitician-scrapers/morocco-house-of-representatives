@@ -3,7 +3,7 @@ require 'scraped'
 
 class MemberSection < Scraped::HTML
   field :id do
-    noko.css('h2.name a/@href').text.split('/').last
+    noko.css('h2.name a/@href').text.split('/').last.gsub(/-201(\d+)/, '')
   end
 
   field :name do
