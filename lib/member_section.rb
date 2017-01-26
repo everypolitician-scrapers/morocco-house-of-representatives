@@ -26,8 +26,4 @@ class MemberSection < Scraped::HTML
   field :image do
     noko.css('a.figure img/@src').text
   end
-
-  field :term do
-    9
-  end
 end
