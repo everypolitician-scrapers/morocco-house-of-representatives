@@ -27,7 +27,7 @@ def scrape_list_page(url)
       ).response
     )
     data = member.to_h.merge(name__ar: arabic_member_page.name)
-    ScraperWiki.save_sqlite(%i(id term), data)
+    ScraperWiki.save_sqlite(%i(id), data)
   end
 
   scrape_list_page page.next_page if page.next_page
