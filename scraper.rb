@@ -33,5 +33,5 @@ def scrape_list_page(url)
   scrape_list_page page.next_page if page.next_page
 end
 
-ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
+ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
 scrape_list_page('http://www.chambredesrepresentants.ma/en/members-house-representatives')
