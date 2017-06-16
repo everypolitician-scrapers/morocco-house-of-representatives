@@ -258,7 +258,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Lord Vaea</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Parliamentary Business</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -380,7 +380,7 @@
 <td>Contact</td>
 <td>
 <ul>
-<li>Email : <span id="cloak04515cc962f7aaba27438eb0951ca35e">This email address is being protected from spambots. You need JavaScript enabled to view it.</span> <span id="cloaka2244e4a5d8ad5896b54f640df92c829">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
+<li>Email : <span id="cloakec4b25e56a9e40d08f704163290997a4">This email address is being protected from spambots. You need JavaScript enabled to view it.</span> <span id="cloakf0f9fca396c6b601dc014e5342ddda1f">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
 <li>Mob number : 8403558</li>
 </ul>
 </td>
@@ -445,6 +445,12 @@
 			                <div id="jsn-pos-content-bottom" class="jsn-modulescontainer jsn-horizontallayout jsn-modulescontainer3 row-fluid">
                 	<div class="lightbox-1 jsn-modulecontainer span4"><div class="jsn-modulecontainer_inner"><div><div><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Latest News</span></h3><div class="jsn-modulecontent"><ul class="latestnewslightbox-1">
 	<li itemscope itemtype="https://schema.org/Article">
+		<a href="/~parliam1/media-centre/latest-news/latest-news-in-english/570-two-mps-submit-motion-so-tonga-can-still-host-2019-south-pacific-games" itemprop="url">
+			<span itemprop="name">
+				Two MPs submit motion so Tonga can still host 2019 South Pacific Games			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
 		<a href="/~parliam1/media-centre/latest-news/latest-news-in-english/569-parliament-adjourns-until-monday" itemprop="url">
 			<span itemprop="name">
 				Parliament adjourns until Monday			</span>
@@ -460,12 +466,6 @@
 		<a href="/~parliam1/media-centre/latest-news/latest-news-in-english/567-king-calls-for-national-approach-to-address-health-education-and-economic-issues" itemprop="url">
 			<span itemprop="name">
 				King calls for national approach to address health, education and economic issues			</span>
-		</a>
-	</li>
-	<li itemscope itemtype="https://schema.org/Article">
-		<a href="/~parliam1/media-centre/latest-news/latest-news-in-tongan/565-to-folofola-meihe-taloni-i-hono-huufi-e-to-u-fale-alea-2017-2018" itemprop="url">
-			<span itemprop="name">
-				To Folofola meihe Taloni 'i hono huufi e to'u Fale Alea 2017/2018			</span>
 		</a>
 	</li>
 </ul>
@@ -625,23 +625,61 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		
 	;
 
-				document.getElementById('cloak04515cc962f7aaba27438eb0951ca35e').innerHTML = '';
+				document.getElementById('cloakec4b25e56a9e40d08f704163290997a4').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy04515cc962f7aaba27438eb0951ca35e = '&#97;lb&#101;rtv&#97;&#101;&#97;' + '&#64;';
-				addy04515cc962f7aaba27438eb0951ca35e = addy04515cc962f7aaba27438eb0951ca35e + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloak04515cc962f7aaba27438eb0951ca35e').innerHTML += addy04515cc962f7aaba27438eb0951ca35e;
+				var addyec4b25e56a9e40d08f704163290997a4 = '&#97;lb&#101;rtv&#97;&#101;&#97;' + '&#64;';
+				addyec4b25e56a9e40d08f704163290997a4 = addyec4b25e56a9e40d08f704163290997a4 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloakec4b25e56a9e40d08f704163290997a4').innerHTML += addyec4b25e56a9e40d08f704163290997a4;
 		;
 
-				document.getElementById('cloaka2244e4a5d8ad5896b54f640df92c829').innerHTML = '';
+				document.getElementById('cloakf0f9fca396c6b601dc014e5342ddda1f').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addya2244e4a5d8ad5896b54f640df92c829 = '&#97;lb&#101;rtv&#97;&#101;&#97;' + '&#64;';
-				addya2244e4a5d8ad5896b54f640df92c829 = addya2244e4a5d8ad5896b54f640df92c829 + 'h&#111;tm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloaka2244e4a5d8ad5896b54f640df92c829').innerHTML += addya2244e4a5d8ad5896b54f640df92c829;
+				var addyf0f9fca396c6b601dc014e5342ddda1f = '&#97;lb&#101;rtv&#97;&#101;&#97;' + '&#64;';
+				addyf0f9fca396c6b601dc014e5342ddda1f = addyf0f9fca396c6b601dc014e5342ddda1f + 'h&#111;tm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloakf0f9fca396c6b601dc014e5342ddda1f').innerHTML += addyf0f9fca396c6b601dc014e5342ddda1f;
 		;
 
 						function jSelectShortcode(text) {
