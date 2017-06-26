@@ -20,27 +20,30 @@ response:
     X-Powered-By:
     - PHP/5.6.30
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=0b85fb05463a732fce699045d771c1e6; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=5ee76de62ca1f51546a176ab2d8e81f4; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Tue, 25 Jul 2017 08:19:33 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
+    - Wed, 26 Jul 2017 23:48:31 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Sun, 25 Jun 2017 08:19:33 GMT
+    - Mon, 26 Jun 2017 23:41:11 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/peoples/145-dr-aisake-valu-eke
     Pragma:
-    - no-cache
+    - no-cache, no-cache
     Transfer-Encoding:
     - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Sun, 25 Jun 2017 08:19:33 GMT
+    - Mon, 26 Jun 2017 23:48:31 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -50,4 +53,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 25 Jun 2017 08:19:33 GMT
+recorded_at: Mon, 26 Jun 2017 23:48:31 GMT
