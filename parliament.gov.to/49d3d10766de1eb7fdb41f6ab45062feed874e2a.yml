@@ -20,27 +20,30 @@ response:
     X-Powered-By:
     - PHP/5.6.30
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=ee951eeee9e10033228aaef1ea0c2c35; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=4c62ab9a3550511cc797a4eabdf0c0cb; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Fri, 04 Aug 2017 06:29:23 GMT
+    - Sat, 05 Aug 2017 04:45:50 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Wed, 05 Jul 2017 06:29:23 GMT
+    - Thu, 06 Jul 2017 04:45:49 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/peoples/325-siaosi-ofakivahafolau-sovaleni
     Pragma:
-    - no-cache
-    Transfer-Encoding:
-    - chunked
+    - no-cache, no-cache
+    Content-Length:
+    - '8166'
     Vary:
     - Accept-Encoding
     Date:
-    - Wed, 05 Jul 2017 06:29:23 GMT
+    - Thu, 06 Jul 2017 04:45:50 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -50,4 +53,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 05 Jul 2017 06:29:23 GMT
+recorded_at: Thu, 06 Jul 2017 04:45:50 GMT
