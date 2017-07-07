@@ -20,30 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.30
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=0ec27677174ab595c0cf0c3992105e6b; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=8738e2ecdd829bd7754b2d99cd4eb1f8; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Sat, 05 Aug 2017 04:59:42 GMT
+    - Sun, 06 Aug 2017 03:28:52 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Thu, 06 Jul 2017 04:46:02 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/380-semisi-fakahau
+    - Fri, 07 Jul 2017 03:28:52 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '7872'
+    - no-cache
+    Transfer-Encoding:
+    - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Thu, 06 Jul 2017 04:59:42 GMT
+    - Fri, 07 Jul 2017 03:28:52 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -53,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 06 Jul 2017 04:59:42 GMT
+recorded_at: Fri, 07 Jul 2017 03:28:52 GMT
