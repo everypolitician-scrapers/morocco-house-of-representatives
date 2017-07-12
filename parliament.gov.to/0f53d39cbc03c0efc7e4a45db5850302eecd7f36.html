@@ -290,16 +290,16 @@
 	
 		<div class="page-header">
 		<h2>
-															<a href="/members-of-parliament/peoples/145-dr-aisake-valu-eke"> Dr. 'Aisake Valu Eke</a>
+															<a href="/members-of-parliament/peoples/145-dr-aisake-valu-eke?switch_to_desktop_ui=1'"> Dr. 'Aisake Valu Eke</a>
 									</h2>
 				</div>
 		<div class="jsn-article-toolbar">
 							<div class="btn-group pull-right">
 				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <i class="icon-cog"></i> <span class="caret"></span> </a>
 								<ul class="dropdown-menu actions">
-											<li class="print-icon"> <a href="/members-of-parliament/peoples/145-dr-aisake-valu-eke?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print article < Dr. &#039;Aisake Valu Eke >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print"></span>
+											<li class="print-icon"> <a href="/members-of-parliament/peoples/145-dr-aisake-valu-eke?tmpl=component&amp;print=1&amp;layout=default&amp;page=&amp;switch_to_desktop_ui=1'" title="Print article < Dr. &#039;Aisake Valu Eke >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print"></span>
 		Print	</a> </li>
-																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=0f53d39cbc03c0efc7e4a45db5850302eecd7f36" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope"></span>
+																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=56cc3eae6faabdd22244549024ac1a8b44d99f41&amp;switch_to_desktop_ui=1'" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope"></span>
 		Email	</a> </li>
 														</ul>
 			</div>
@@ -357,7 +357,7 @@
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td><strong>Email</strong> : <span id="cloakeb26e945bb546f668929fe554b54960b">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
+<td><strong>Email</strong> : <span id="cloaka1d6412bc1307b14d8208d2c00e5c2e9">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
 </tr>
 <tr>
 <td>&nbsp;</td>
@@ -392,11 +392,11 @@
 				
 <ul class="pager pagenav">
 	<li class="previous">
-		<a href="/members-of-parliament/peoples/327-mateni-tapueluelu" rel="prev">
+		<a href="/members-of-parliament/peoples/327-mateni-tapueluelu?switch_to_desktop_ui=1'" rel="prev">
 			<span class="icon-chevron-left"></span> Prev		</a>
 	</li>
 	<li class="next">
-		<a href="/members-of-parliament/peoples/326-poasi-mataele-tei" rel="next">
+		<a href="/members-of-parliament/peoples/326-poasi-mataele-tei?switch_to_desktop_ui=1'" rel="next">
 			Next <span class="icon-chevron-right"></span>		</a>
 	</li>
 </ul>
@@ -607,7 +607,45 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
@@ -667,12 +705,12 @@ jQuery(document).ready(function(){
 		});
 ;
 
-				document.getElementById('cloakeb26e945bb546f668929fe554b54960b').innerHTML = '';
+				document.getElementById('cloaka1d6412bc1307b14d8208d2c00e5c2e9').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addyeb26e945bb546f668929fe554b54960b = '&#101;k&#101;&#97;&#105;s&#97;k&#101;' + '&#64;';
-				addyeb26e945bb546f668929fe554b54960b = addyeb26e945bb546f668929fe554b54960b + 'y&#97;h&#111;&#111;' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloakeb26e945bb546f668929fe554b54960b').innerHTML += addyeb26e945bb546f668929fe554b54960b;
+				var addya1d6412bc1307b14d8208d2c00e5c2e9 = '&#101;k&#101;&#97;&#105;s&#97;k&#101;' + '&#64;';
+				addya1d6412bc1307b14d8208d2c00e5c2e9 = addya1d6412bc1307b14d8208d2c00e5c2e9 + 'y&#97;h&#111;&#111;' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloaka1d6412bc1307b14d8208d2c00e5c2e9').innerHTML += addya1d6412bc1307b14d8208d2c00e5c2e9;
 		;
 
 						function jSelectShortcode(text) {
