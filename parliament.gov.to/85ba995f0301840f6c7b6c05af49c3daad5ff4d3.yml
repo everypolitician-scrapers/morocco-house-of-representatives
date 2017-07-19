@@ -20,27 +20,30 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=5c6b554fdc492ba5ff8a496da1aa5cec; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=a7038d26c48237349cf5bb2651960472; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Thu, 17 Aug 2017 16:50:52 GMT
+    - Fri, 18 Aug 2017 09:06:42 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Tue, 18 Jul 2017 16:50:52 GMT
+    - Wed, 19 Jul 2017 08:57:41 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/peoples/333-dr-saia-piukala
     Pragma:
-    - no-cache
-    Transfer-Encoding:
-    - chunked
+    - no-cache, no-cache
+    Content-Length:
+    - '7866'
     Vary:
     - Accept-Encoding
     Date:
-    - Tue, 18 Jul 2017 16:50:52 GMT
+    - Wed, 19 Jul 2017 09:06:42 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -50,4 +53,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 18 Jul 2017 16:50:52 GMT
+recorded_at: Wed, 19 Jul 2017 09:06:42 GMT
