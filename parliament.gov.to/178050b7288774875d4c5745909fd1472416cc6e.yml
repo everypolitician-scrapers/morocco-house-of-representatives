@@ -20,30 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=515336a88d1deff3471fef7086890d90; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=22eb05286013e5d395b181fc3a0d3254; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Fri, 18 Aug 2017 09:01:20 GMT
+    - Sat, 19 Aug 2017 09:38:44 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Wed, 19 Jul 2017 08:57:35 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/334-vili-manuopangai-faka-osiula-hingano
+    - Thu, 20 Jul 2017 09:38:44 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '7907'
+    - no-cache
+    Transfer-Encoding:
+    - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Wed, 19 Jul 2017 09:01:20 GMT
+    - Thu, 20 Jul 2017 09:38:44 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -53,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 19 Jul 2017 09:01:20 GMT
+recorded_at: Thu, 20 Jul 2017 09:38:45 GMT
