@@ -20,30 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=414a3b11d2f7d08e520a14ce1edcf1e6; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=d7183b892caa1ce69c9f57217d9ed9ec; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Fri, 18 Aug 2017 08:58:40 GMT
+    - Sat, 19 Aug 2017 09:36:09 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Wed, 19 Jul 2017 08:57:33 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/332-tevita-lavemaau
+    - Thu, 20 Jul 2017 09:36:09 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '7616'
+    - no-cache
+    Transfer-Encoding:
+    - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Wed, 19 Jul 2017 08:58:40 GMT
+    - Thu, 20 Jul 2017 09:36:09 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -53,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 19 Jul 2017 08:58:40 GMT
+recorded_at: Thu, 20 Jul 2017 09:36:09 GMT
