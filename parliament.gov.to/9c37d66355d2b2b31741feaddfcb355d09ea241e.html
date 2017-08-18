@@ -274,7 +274,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/~parliam1/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/~parliam1/members-of-parliament" class="pathway">Members of Parliament</a></li><li><span class="divider"></span><span>Peoples</span></li></ul>	
+<li><a href="/~parliam1/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/~parliam1/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/~parliam1/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Samiuela 'Akilisi Pohiva</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -299,7 +299,7 @@
 								<ul class="dropdown-menu actions">
 											<li class="print-icon"> <a href="/~parliam1/members-of-parliament/peoples/138-samiuela-akilisi-pohiva?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print article < Samiuela &#039;Akilisi Pohiva >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print"></span>
 		Print	</a> </li>
-																<li class="email-icon"> <a href="/~parliam1/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=9c37d66355d2b2b31741feaddfcb355d09ea241e" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope"></span>
+																<li class="email-icon"> <a href="/~parliam1/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=ddf829fc9743cbb80f830fdeb35975b00c8ddc82" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope"></span>
 		Email	</a> </li>
 														</ul>
 			</div>
@@ -356,7 +356,7 @@
 </td>
 </tr>
 <tr>
-<td><strong>Email</strong> : <span id="cloak478b4cae3c2c7ee7204eebf67c04e17c">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
+<td><strong>Email</strong> : <span id="cloakdea5ae4e7c97015451f9b10925960e4a">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
 </tr>
 <tr>
 <td><strong>Mobile Phone</strong> : 676 7714548</td>
@@ -525,6 +525,10 @@
 					</div>
 								<div id="jsn-pos-bottom" class="span6">
 						<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
+
+
+
+
 <div  >
 	<p><span style="color: #000000;"><strong>Copyright &copy; 2014 Parliament of Tonga, Nuku'alofa, Kingdom of Tonga.&nbsp;All Rights Reserved.</strong></span></p></div><div class="clearbreak"></div></div></div></div>
 					</div>
@@ -599,7 +603,45 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
@@ -659,12 +701,12 @@ jQuery(document).ready(function(){
 		});
 ;
 
-				document.getElementById('cloak478b4cae3c2c7ee7204eebf67c04e17c').innerHTML = '';
+				document.getElementById('cloakdea5ae4e7c97015451f9b10925960e4a').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy478b4cae3c2c7ee7204eebf67c04e17c = '&#97;p&#111;h&#105;v&#97;' + '&#64;';
-				addy478b4cae3c2c7ee7204eebf67c04e17c = addy478b4cae3c2c7ee7204eebf67c04e17c + 'y&#97;h&#111;&#111;' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloak478b4cae3c2c7ee7204eebf67c04e17c').innerHTML += addy478b4cae3c2c7ee7204eebf67c04e17c;
+				var addydea5ae4e7c97015451f9b10925960e4a = '&#97;p&#111;h&#105;v&#97;' + '&#64;';
+				addydea5ae4e7c97015451f9b10925960e4a = addydea5ae4e7c97015451f9b10925960e4a + 'y&#97;h&#111;&#111;' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloakdea5ae4e7c97015451f9b10925960e4a').innerHTML += addydea5ae4e7c97015451f9b10925960e4a;
 		;
 
 						function jSelectShortcode(text) {
