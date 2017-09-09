@@ -1,0 +1,53 @@
+---
+request:
+  method: get
+  uri: http://parliament.gov.to/members-of-parliament/nobles/132-lord-tu-i-afitu?switch_to_desktop_ui=1
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    X-Powered-By:
+    - PHP/5.6.31
+    Set-Cookie:
+    - 98c1c581dccdf84615fabe1353b21721=62d7d4ed9b5d5b789a65de108d55329b; path=/; HttpOnly
+    P3p:
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - public, max-age=2592000
+    Expires:
+    - Mon, 09 Oct 2017 23:37:43 GMT
+    - Wed, 17 Aug 2005 00:00:00 GMT
+    Content-Type:
+    - text/html; charset=utf-8
+    Last-Modified:
+    - Sat, 09 Sep 2017 23:37:43 GMT
+    Pragma:
+    - no-cache
+    Transfer-Encoding:
+    - chunked
+    Vary:
+    - Accept-Encoding
+    Date:
+    - Sat, 09 Sep 2017 23:37:43 GMT
+    Accept-Ranges:
+    - bytes
+    Server:
+    - LiteSpeed
+    Connection:
+    - close
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Sat, 09 Sep 2017 23:37:43 GMT
