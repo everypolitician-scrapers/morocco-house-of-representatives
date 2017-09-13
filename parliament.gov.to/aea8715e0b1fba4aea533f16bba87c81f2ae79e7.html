@@ -258,7 +258,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Parliamentary Business</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Parliament Data-Articles</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -380,7 +380,7 @@
 <td>Contact</td>
 <td>
 <ul>
-<li>Email : <span id="cloak71fcc83933d39f925043c5d6b556eeca">This email address is being protected from spambots. You need JavaScript enabled to view it.</span> <span id="cloak124199dc7b69ccf936102576d48aedcb">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
+<li>Email : <span id="cloak4d3e0c20f79c4a47e184868c37360281">This email address is being protected from spambots. You need JavaScript enabled to view it.</span> <span id="cloak9057997c18ec19e5ade992192806a95b">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
 <li>Mob number : 8403558</li>
 </ul>
 </td>
@@ -627,22 +627,60 @@
 					responsiveLayout		: ["mobile","wide"]
 				});
 			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		
 	;
 
-				document.getElementById('cloak71fcc83933d39f925043c5d6b556eeca').innerHTML = '';
+				document.getElementById('cloak4d3e0c20f79c4a47e184868c37360281').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy71fcc83933d39f925043c5d6b556eeca = '&#97;lb&#101;rtv&#97;&#101;&#97;' + '&#64;';
-				addy71fcc83933d39f925043c5d6b556eeca = addy71fcc83933d39f925043c5d6b556eeca + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloak71fcc83933d39f925043c5d6b556eeca').innerHTML += addy71fcc83933d39f925043c5d6b556eeca;
+				var addy4d3e0c20f79c4a47e184868c37360281 = '&#97;lb&#101;rtv&#97;&#101;&#97;' + '&#64;';
+				addy4d3e0c20f79c4a47e184868c37360281 = addy4d3e0c20f79c4a47e184868c37360281 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloak4d3e0c20f79c4a47e184868c37360281').innerHTML += addy4d3e0c20f79c4a47e184868c37360281;
 		;
 
-				document.getElementById('cloak124199dc7b69ccf936102576d48aedcb').innerHTML = '';
+				document.getElementById('cloak9057997c18ec19e5ade992192806a95b').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy124199dc7b69ccf936102576d48aedcb = '&#97;lb&#101;rtv&#97;&#101;&#97;' + '&#64;';
-				addy124199dc7b69ccf936102576d48aedcb = addy124199dc7b69ccf936102576d48aedcb + 'h&#111;tm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloak124199dc7b69ccf936102576d48aedcb').innerHTML += addy124199dc7b69ccf936102576d48aedcb;
+				var addy9057997c18ec19e5ade992192806a95b = '&#97;lb&#101;rtv&#97;&#101;&#97;' + '&#64;';
+				addy9057997c18ec19e5ade992192806a95b = addy9057997c18ec19e5ade992192806a95b + 'h&#111;tm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloak9057997c18ec19e5ade992192806a95b').innerHTML += addy9057997c18ec19e5ade992192806a95b;
 		;
 
 						function jSelectShortcode(text) {
