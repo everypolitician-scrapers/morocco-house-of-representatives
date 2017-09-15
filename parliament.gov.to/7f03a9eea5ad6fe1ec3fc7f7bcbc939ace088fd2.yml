@@ -20,30 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=796f9d3857d0de0964e1b0b4f22a24ba; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=10f00e1506a42be197b188521802cb35; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Sat, 14 Oct 2017 09:27:39 GMT
+    - Sun, 15 Oct 2017 02:28:19 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Thu, 14 Sep 2017 09:21:11 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/328-veivosa-taka
+    - Fri, 15 Sep 2017 02:28:19 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '7784'
+    - no-cache
+    Transfer-Encoding:
+    - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Thu, 14 Sep 2017 09:27:39 GMT
+    - Fri, 15 Sep 2017 02:28:19 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -53,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 14 Sep 2017 09:27:39 GMT
+recorded_at: Fri, 15 Sep 2017 02:28:19 GMT
