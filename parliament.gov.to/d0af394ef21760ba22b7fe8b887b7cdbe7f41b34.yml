@@ -20,30 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=00f8c9ba46cbb18f7f48a03a3fda7d45; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=c4133611e31de776bec8c666f45a1cd5; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Sat, 14 Oct 2017 09:33:17 GMT
+    - Sun, 15 Oct 2017 02:33:16 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Thu, 14 Sep 2017 09:21:19 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/152-samiu-kuita-vaipulu
+    - Fri, 15 Sep 2017 02:33:16 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '8139'
+    - no-cache
+    Transfer-Encoding:
+    - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Thu, 14 Sep 2017 09:33:17 GMT
+    - Fri, 15 Sep 2017 02:33:16 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -53,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 14 Sep 2017 09:33:17 GMT
+recorded_at: Fri, 15 Sep 2017 02:33:17 GMT
