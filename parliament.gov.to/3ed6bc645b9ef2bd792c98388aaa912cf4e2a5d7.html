@@ -274,7 +274,7 @@
 	
 		<div class="page-header">
 		<h2>
-															<a href="/members-of-parliament/nobles/128-lord-tu-ivakano"> Lord Tu'ivakano</a>
+															<a href="/members-of-parliament/nobles/128-lord-tu-ivakano?switch_to_desktop_ui=1'"> Lord Tu'ivakano</a>
 									</h2>
 				</div>
 		<div class="jsn-article-toolbar">
@@ -358,11 +358,11 @@
 				
 <ul class="pager pagenav">
 	<li class="previous">
-		<a href="/members-of-parliament/nobles/129-lord-ma-afu-tukui-aulahi" rel="prev">
+		<a href="/members-of-parliament/nobles/129-lord-ma-afu-tukui-aulahi?switch_to_desktop_ui=1'" rel="prev">
 			<span class="icon-chevron-left"></span> Prev		</a>
 	</li>
 	<li class="next">
-		<a href="/members-of-parliament/nobles/137-lord-nuku" rel="next">
+		<a href="/members-of-parliament/nobles/137-lord-nuku?switch_to_desktop_ui=1'" rel="next">
 			Next <span class="icon-chevron-right"></span>		</a>
 	</li>
 </ul>
@@ -498,10 +498,6 @@
 					</div>
 								<div id="jsn-pos-bottom" class="span6">
 						<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
-
-
-
-
 <div  >
 	<p><span style="color: #000000;"><strong>Copyright &copy; 2014 Parliament of Tonga, Nuku'alofa, Kingdom of Tonga.&nbsp;All Rights Reserved.</strong></span></p></div><div class="clearbreak"></div></div></div></div>
 					</div>
@@ -576,7 +572,45 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 						function jSelectShortcode(text) {
