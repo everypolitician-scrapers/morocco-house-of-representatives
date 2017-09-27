@@ -20,19 +20,19 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=300cace4af860adfa4496f351f3e6e16; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=563f10e5e28e6ba4f58234caa9010d58; path=/; HttpOnly
     P3p:
     - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
     - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Thu, 26 Oct 2017 03:36:13 GMT
+    - Fri, 27 Oct 2017 03:29:10 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Tue, 26 Sep 2017 03:36:13 GMT
+    - Wed, 27 Sep 2017 03:29:10 GMT
     Pragma:
     - no-cache
     Transfer-Encoding:
@@ -40,7 +40,7 @@ response:
     Vary:
     - Accept-Encoding
     Date:
-    - Tue, 26 Sep 2017 03:36:13 GMT
+    - Wed, 27 Sep 2017 03:29:10 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -50,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 26 Sep 2017 03:36:13 GMT
+recorded_at: Wed, 27 Sep 2017 03:29:10 GMT
