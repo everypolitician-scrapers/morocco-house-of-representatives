@@ -20,30 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=aafece144954baf82423f6c6d8613e6d; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=b017be3765d388458dfff00db544b95a; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
+    - Thu, 23 Nov 2017 18:58:52 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
-    - Wed, 22 Nov 2017 01:13:02 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Mon, 23 Oct 2017 01:09:36 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/139-semisi-sika
+    - Tue, 24 Oct 2017 18:58:52 GMT
     Pragma:
-    - no-cache, no-cache
+    - no-cache
     Transfer-Encoding:
     - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Mon, 23 Oct 2017 01:13:02 GMT
+    - Tue, 24 Oct 2017 18:58:52 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -53,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 23 Oct 2017 01:13:02 GMT
+recorded_at: Tue, 24 Oct 2017 18:58:52 GMT
