@@ -274,7 +274,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Vili Manuopangai Faka'osiula Hingano</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Semisi Fakahau</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -358,7 +358,7 @@
 </td>
 </tr>
 <tr>
-<td><strong>Email</strong> : <span id="cloakcc56c31437facc56d735f3e440f231e5">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
+<td><strong>Email</strong> : <span id="cloak1d7eeb56a0084118269aef1a342dd9e0">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
 </tr>
 <tr>
 <td><strong>Mobile Phone :&nbsp;</strong><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: normal;">676 7746587 or 676 8794813</span></td>
@@ -607,7 +607,45 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
@@ -667,12 +705,12 @@ jQuery(document).ready(function(){
 		});
 ;
 
-				document.getElementById('cloakcc56c31437facc56d735f3e440f231e5').innerHTML = '';
+				document.getElementById('cloak1d7eeb56a0084118269aef1a342dd9e0').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addycc56c31437facc56d735f3e440f231e5 = 'v&#111;s&#97;t&#97;k&#97;' + '&#64;';
-				addycc56c31437facc56d735f3e440f231e5 = addycc56c31437facc56d735f3e440f231e5 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloakcc56c31437facc56d735f3e440f231e5').innerHTML += addycc56c31437facc56d735f3e440f231e5;
+				var addy1d7eeb56a0084118269aef1a342dd9e0 = 'v&#111;s&#97;t&#97;k&#97;' + '&#64;';
+				addy1d7eeb56a0084118269aef1a342dd9e0 = addy1d7eeb56a0084118269aef1a342dd9e0 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloak1d7eeb56a0084118269aef1a342dd9e0').innerHTML += addy1d7eeb56a0084118269aef1a342dd9e0;
 		;
 
 						function jSelectShortcode(text) {
