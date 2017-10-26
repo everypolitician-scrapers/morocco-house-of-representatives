@@ -20,27 +20,30 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=87039e49a213a5c9669b4d959cf2093a; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=09b563b7331c553b7b00c2b9555a93bb; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Fri, 24 Nov 2017 10:43:28 GMT
+    - Sat, 25 Nov 2017 02:13:44 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Wed, 25 Oct 2017 10:43:28 GMT
+    - Thu, 26 Oct 2017 02:12:03 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/nobles/137-lord-nuku
     Pragma:
-    - no-cache
-    Transfer-Encoding:
-    - chunked
+    - no-cache, no-cache
+    Content-Length:
+    - '5885'
     Vary:
     - Accept-Encoding
     Date:
-    - Wed, 25 Oct 2017 10:43:28 GMT
+    - Thu, 26 Oct 2017 02:13:44 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -50,4 +53,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 25 Oct 2017 10:43:28 GMT
+recorded_at: Thu, 26 Oct 2017 02:13:44 GMT
