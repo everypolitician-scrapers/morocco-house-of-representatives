@@ -20,30 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=c6269461a5041270d54de9f95a1f053d; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=0df3f1a06860cd7469e39f2831021c7b; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Mon, 27 Nov 2017 07:33:19 GMT
+    - Tue, 28 Nov 2017 05:43:55 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Sat, 28 Oct 2017 07:20:37 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/nobles/129-lord-ma-afu-tukui-aulahi
+    - Sun, 29 Oct 2017 05:43:55 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '6121'
+    - no-cache
+    Transfer-Encoding:
+    - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Sat, 28 Oct 2017 07:33:19 GMT
+    - Sun, 29 Oct 2017 05:43:55 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -53,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 28 Oct 2017 07:33:19 GMT
+recorded_at: Sun, 29 Oct 2017 05:43:55 GMT
