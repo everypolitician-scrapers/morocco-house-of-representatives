@@ -20,30 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.31
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=be912c26ddb5fd9c053a9063c3923ff7; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=9ca48504703c36c50254eb062ae25473; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Mon, 27 Nov 2017 07:24:55 GMT
+    - Tue, 28 Nov 2017 05:36:21 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Sat, 28 Oct 2017 07:20:22 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/379-sosefo-fe-aomoeata-vakata
+    - Sun, 29 Oct 2017 05:36:22 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '8031'
+    - no-cache
+    Transfer-Encoding:
+    - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Sat, 28 Oct 2017 07:24:55 GMT
+    - Sun, 29 Oct 2017 05:36:21 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -53,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 28 Oct 2017 07:24:55 GMT
+recorded_at: Sun, 29 Oct 2017 05:36:22 GMT
