@@ -274,7 +274,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Vili Manuopangai Faka'osiula Hingano</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Dr. Saia Piukala</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -354,7 +354,7 @@
 <td><strong>Postal Address </strong>:&nbsp;</td>
 </tr>
 <tr>
-<td><strong>Email</strong> : &nbsp;<span id="cloak5816289a24476e68df9f5f3bf09c4c4b">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
+<td><strong>Email</strong> : &nbsp;<span id="cloak39ab3c1dd7bd843f718b37496a851ac8">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
 </tr>
 <tr>
 <td><strong>Mobile Phone</strong> : 676 7820100</td>
@@ -531,6 +531,10 @@
 					</div>
 								<div id="jsn-pos-bottom" class="span6">
 						<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
+
+
+
+
 <div  >
 	<p><span style="color: #000000;"><strong>Copyright &copy; 2014 Parliament of Tonga, Nuku'alofa, Kingdom of Tonga.&nbsp;All Rights Reserved.</strong></span></p></div><div class="clearbreak"></div></div></div></div>
 					</div>
@@ -607,7 +611,45 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
@@ -667,12 +709,12 @@ jQuery(document).ready(function(){
 		});
 ;
 
-				document.getElementById('cloak5816289a24476e68df9f5f3bf09c4c4b').innerHTML = '';
+				document.getElementById('cloak39ab3c1dd7bd843f718b37496a851ac8').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy5816289a24476e68df9f5f3bf09c4c4b = 'v&#97;&#105;p&#117;l&#117;s&#97;m&#105;&#117;' + '&#64;';
-				addy5816289a24476e68df9f5f3bf09c4c4b = addy5816289a24476e68df9f5f3bf09c4c4b + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloak5816289a24476e68df9f5f3bf09c4c4b').innerHTML += addy5816289a24476e68df9f5f3bf09c4c4b;
+				var addy39ab3c1dd7bd843f718b37496a851ac8 = 'v&#97;&#105;p&#117;l&#117;s&#97;m&#105;&#117;' + '&#64;';
+				addy39ab3c1dd7bd843f718b37496a851ac8 = addy39ab3c1dd7bd843f718b37496a851ac8 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloak39ab3c1dd7bd843f718b37496a851ac8').innerHTML += addy39ab3c1dd7bd843f718b37496a851ac8;
 		;
 
 						function jSelectShortcode(text) {
