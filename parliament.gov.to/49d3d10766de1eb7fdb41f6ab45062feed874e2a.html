@@ -265,16 +265,16 @@
 				</span>
 			            <div class="clearbreak"></div>
 			</div></div>
-					<div id="jsn-content" class="jsn-hasright ">
+					<div id="jsn-content" class="">
 				<div id="jsn-content_inner"><div id="jsn-content_inner1"><div id="jsn-content_inner2"><div id="jsn-content_inner3"><div id="jsn-content_inner4"><div id="jsn-content_inner5"><div id="jsn-content_inner6"><div id="jsn-content_inner7" class="row-fluid">
-						<div id="jsn-maincontent" class="span9 order1 ">
+						<div id="jsn-maincontent" class="span12 order1 ">
 					<div id="jsn-maincontent_inner1"><div id="jsn-maincontent_inner" class="row-fluid">
 								<div id="jsn-centercol" class="span12 order1 ">
 							<div id="jsn-centercol_inner">
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a></li><li><span class="divider"></span><span>Peoples</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Samiuela 'Akilisi Pohiva</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -299,7 +299,7 @@
 								<ul class="dropdown-menu actions">
 											<li class="print-icon"> <a href="/members-of-parliament/peoples/325-siaosi-ofakivahafolau-sovaleni?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print article < Siaosi &#039;Ofakivahafolau Sovaleni >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
 		Print	</a> </li>
-																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=49d3d10766de1eb7fdb41f6ab45062feed874e2a" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
+																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=3991e4daafe81de8ce24834a46a8b0d295b93ed7" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
 		Email	</a> </li>
 														</ul>
 			</div>
@@ -358,7 +358,7 @@
 </td>
 </tr>
 <tr>
-<td><strong>Email</strong> : <span id="cloak3a949a3378df8fed7ebed986139a3cea">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
+<td><strong>Email</strong> : <span id="cloakc641c22dcbe0c9d61363796b8426bb75">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
 </tr>
 <tr>
 <td><strong>Mobile Phone :&nbsp;</strong>676 7888887</td>
@@ -405,19 +405,6 @@
 										</div>
 		        				</div></div> <!-- end centercol -->
         				</div></div></div> <!-- end jsn-maincontent -->
-							<div id="jsn-rightsidecontent" class="span3 order2 ">
-						<div id="jsn-rightsidecontent_inner">
-							<div id="jsn-pos-right">
-								<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Downloads</span></h3><div class="jsn-modulecontent">
-<div  >
-	<p><a href="/parliamentary-business/hansard-debates/2017">Minutes 2017</a></p>
-<p><a href="/parliamentary-business/hansard-debates/2016">Minutes 2016</a></p>
-<p><a href="/parliamentary-business/hansard-debates/2015">Minutes 2015</a></p>
-<p><a href="/parliamentary-business/hansard-debates/2014">Minutes 2014</a></p>
-<p><a href="/parliamentary-business/hansard-debates/2013">Minutes 2013</a></p></div><div class="clearbreak"></div></div></div></div></div></div>
-							</div>
-						</div>
-					</div>
 		                </div></div></div></div></div></div></div></div>
             </div>
 					<div id="jsn-content-bottom">
@@ -531,10 +518,6 @@
 					</div>
 								<div id="jsn-pos-bottom" class="span6">
 						<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
-
-
-
-
 <div  >
 	<p><span style="color: #000000;"><strong>Copyright &copy; 2014 Parliament of Tonga, Nuku'alofa, Kingdom of Tonga.&nbsp;All Rights Reserved.</strong></span></p></div><div class="clearbreak"></div></div></div></div>
 					</div>
@@ -611,7 +594,45 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
@@ -671,12 +692,12 @@ jQuery(document).ready(function(){
 		});
 ;
 
-				document.getElementById('cloak3a949a3378df8fed7ebed986139a3cea').innerHTML = '';
+				document.getElementById('cloakc641c22dcbe0c9d61363796b8426bb75').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy3a949a3378df8fed7ebed986139a3cea = 's&#105;&#97;&#111;s&#105;.s&#111;v&#97;l&#101;n&#105;' + '&#64;';
-				addy3a949a3378df8fed7ebed986139a3cea = addy3a949a3378df8fed7ebed986139a3cea + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloak3a949a3378df8fed7ebed986139a3cea').innerHTML += addy3a949a3378df8fed7ebed986139a3cea;
+				var addyc641c22dcbe0c9d61363796b8426bb75 = 's&#105;&#97;&#111;s&#105;.s&#111;v&#97;l&#101;n&#105;' + '&#64;';
+				addyc641c22dcbe0c9d61363796b8426bb75 = addyc641c22dcbe0c9d61363796b8426bb75 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloakc641c22dcbe0c9d61363796b8426bb75').innerHTML += addyc641c22dcbe0c9d61363796b8426bb75;
 		;
 
 						function jSelectShortcode(text) {
