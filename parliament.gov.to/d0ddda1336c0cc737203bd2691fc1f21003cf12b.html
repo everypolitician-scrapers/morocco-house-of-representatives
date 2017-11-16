@@ -258,7 +258,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Lord Nuku</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles/14-parliament-data-articles" class="pathway">Parliament Data-Articles</a></li><li><span class="divider"></span><span>Media Centre</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -379,7 +379,7 @@
 <td>Contact</td>
 <td>
 <ul>
-<li>Email : <span id="cloakc7f80d8c8a0af1d0e3c3aa07a687eaa2">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
+<li>Email : <span id="cloakbc746377a146fea062675edac8456180">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
 <li>Mob number : +676 8421244</li>
 </ul>
 </td>
@@ -534,6 +534,10 @@
 					</div>
 								<div id="jsn-pos-bottom" class="span6">
 						<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
+
+
+
+
 <div  >
 	<p><span style="color: #000000;"><strong>Copyright &copy; 2014 Parliament of Tonga, Nuku'alofa, Kingdom of Tonga.&nbsp;All Rights Reserved.</strong></span></p></div><div class="clearbreak"></div></div></div></div>
 					</div>
@@ -608,15 +612,53 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		
 	;
 
-				document.getElementById('cloakc7f80d8c8a0af1d0e3c3aa07a687eaa2').innerHTML = '';
+				document.getElementById('cloakbc746377a146fea062675edac8456180').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addyc7f80d8c8a0af1d0e3c3aa07a687eaa2 = 'mf&#117;s&#105;t&#117;&#97;' + '&#64;';
-				addyc7f80d8c8a0af1d0e3c3aa07a687eaa2 = addyc7f80d8c8a0af1d0e3c3aa07a687eaa2 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloakc7f80d8c8a0af1d0e3c3aa07a687eaa2').innerHTML += addyc7f80d8c8a0af1d0e3c3aa07a687eaa2;
+				var addybc746377a146fea062675edac8456180 = 'mf&#117;s&#105;t&#117;&#97;' + '&#64;';
+				addybc746377a146fea062675edac8456180 = addybc746377a146fea062675edac8456180 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloakbc746377a146fea062675edac8456180').innerHTML += addybc746377a146fea062675edac8456180;
 		;
 
 						function jSelectShortcode(text) {
