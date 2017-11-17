@@ -258,7 +258,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles/14-parliament-data-articles" class="pathway">Parliament Data-Articles</a></li><li><span class="divider"></span><span>Media Centre</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Lord Tu'i'afitu</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -379,7 +379,7 @@
 <td>Contact</td>
 <td>
 <ul>
-<li>Email : <span id="cloakbc746377a146fea062675edac8456180">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
+<li>Email : <span id="cloak7be0416a3380c136ee3905ac49bb9367">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
 <li>Mob number : +676 8421244</li>
 </ul>
 </td>
@@ -479,6 +479,12 @@
 </ul>
 <div class="clearbreak"></div></div></div></div></div></div><div class="lightbox-1 jsn-modulecontainer span4"><div class="jsn-modulecontainer_inner"><div><div><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Press Releases</span></h3><div class="jsn-modulecontent"><ul class="latestnewslightbox-1">
 	<li itemscope itemtype="https://schema.org/Article">
+		<a href="/media-centre/press-releases/press-releases-in-english/589-press-release-from-the-office-of-the-interim-speaker-of-the-legislative-assembly" itemprop="url">
+			<span itemprop="name">
+				Press Release from the Office of the Interim Speaker of the Legislative Assembly			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
 		<a href="/media-centre/press-releases/press-releases-in-tongan/588-ongoongo-tukuatu-meihe-kalake-pule-fale-alea-o-tonga" itemprop="url">
 			<span itemprop="name">
 				Ongoongo tukuatu - Meihe Kalake Pule Fale Alea o Tonga			</span>
@@ -494,12 +500,6 @@
 		<a href="/media-centre/press-releases/press-releases-in-english/583-press-statement-from-the-speaker-of-the-legislative-assembly-of-tonga" itemprop="url">
 			<span itemprop="name">
 				Press statement from the Speaker of the Legislative Assembly of Tonga			</span>
-		</a>
-	</li>
-	<li itemscope itemtype="https://schema.org/Article">
-		<a href="/media-centre/press-releases/press-releases-in-tongan/582-ongoongo-tukuatu-meihe-ofisi-e-sea-e-fale-alea" itemprop="url">
-			<span itemprop="name">
-				Ongoongo tukuatu meihe 'Ofisi e Sea e Fale Alea 			</span>
 		</a>
 	</li>
 </ul>
@@ -534,10 +534,6 @@
 					</div>
 								<div id="jsn-pos-bottom" class="span6">
 						<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
-
-
-
-
 <div  >
 	<p><span style="color: #000000;"><strong>Copyright &copy; 2014 Parliament of Tonga, Nuku'alofa, Kingdom of Tonga.&nbsp;All Rights Reserved.</strong></span></p></div><div class="clearbreak"></div></div></div></div>
 					</div>
@@ -612,53 +608,15 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			
-		jQuery(function($) {
-			SqueezeBox.initialize({});
-			SqueezeBox.assign($('a.modal').get(), {
-				parse: 'rel'
-			});
-		});
-
-		window.jModalClose = function () {
-			SqueezeBox.close();
-		};
-		
-		// Add extra modal close functionality for tinyMCE-based editors
-		document.onreadystatechange = function () {
-			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
-			{
-				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
-				{	
-					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
-					
-					jModalClose = function () {
-						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-		
-				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
-				{
-					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
-					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
-		
-					SqueezeBox.close = function () {
-						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-			}
-		};
-		
+			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
-				document.getElementById('cloakbc746377a146fea062675edac8456180').innerHTML = '';
+				document.getElementById('cloak7be0416a3380c136ee3905ac49bb9367').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addybc746377a146fea062675edac8456180 = 'mf&#117;s&#105;t&#117;&#97;' + '&#64;';
-				addybc746377a146fea062675edac8456180 = addybc746377a146fea062675edac8456180 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloakbc746377a146fea062675edac8456180').innerHTML += addybc746377a146fea062675edac8456180;
+				var addy7be0416a3380c136ee3905ac49bb9367 = 'mf&#117;s&#105;t&#117;&#97;' + '&#64;';
+				addy7be0416a3380c136ee3905ac49bb9367 = addy7be0416a3380c136ee3905ac49bb9367 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloak7be0416a3380c136ee3905ac49bb9367').innerHTML += addy7be0416a3380c136ee3905ac49bb9367;
 		;
 
 						function jSelectShortcode(text) {
