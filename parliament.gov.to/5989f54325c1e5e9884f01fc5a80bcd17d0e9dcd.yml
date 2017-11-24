@@ -1,0 +1,53 @@
+---
+request:
+  method: get
+  uri: http://parliament.gov.to/members-of-parliament/nobles/129-lord-ma-afu-tukui-aulahi?switch_to_desktop_ui=1%27A=0
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    X-Powered-By:
+    - PHP/5.6.32
+    Set-Cookie:
+    - 98c1c581dccdf84615fabe1353b21721=c6a93cbcfe003412980ccc9543ab7eea; path=/; HttpOnly
+    P3p:
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - public, max-age=2592000
+    Expires:
+    - Sun, 24 Dec 2017 13:24:13 GMT
+    - Wed, 17 Aug 2005 00:00:00 GMT
+    Content-Type:
+    - text/html; charset=utf-8
+    Last-Modified:
+    - Fri, 24 Nov 2017 13:24:13 GMT
+    Pragma:
+    - no-cache
+    Transfer-Encoding:
+    - chunked
+    Vary:
+    - Accept-Encoding
+    Date:
+    - Fri, 24 Nov 2017 13:24:13 GMT
+    Accept-Ranges:
+    - bytes
+    Server:
+    - LiteSpeed
+    Connection:
+    - close
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Fri, 24 Nov 2017 13:24:13 GMT
