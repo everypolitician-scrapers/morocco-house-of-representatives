@@ -1,0 +1,53 @@
+---
+request:
+  method: get
+  uri: http://parliament.gov.to/members-of-parliament/peoples/334-vili-manuopangai-faka-osiula-hingano?switch_to_desktop_ui=1%5C
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    X-Powered-By:
+    - PHP/5.6.32
+    Set-Cookie:
+    - 98c1c581dccdf84615fabe1353b21721=f3aa9102dfab612fcbc2aa20546e2713; path=/; HttpOnly
+    P3p:
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - public, max-age=2592000
+    Expires:
+    - Sat, 13 Jan 2018 07:15:41 GMT
+    - Wed, 17 Aug 2005 00:00:00 GMT
+    Content-Type:
+    - text/html; charset=utf-8
+    Last-Modified:
+    - Thu, 14 Dec 2017 07:15:41 GMT
+    Pragma:
+    - no-cache
+    Vary:
+    - Accept-Encoding
+    Date:
+    - Thu, 14 Dec 2017 07:15:41 GMT
+    Accept-Ranges:
+    - bytes
+    Server:
+    - LiteSpeed
+    Connection:
+    - close
+    Content-Length:
+    - '8585'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 14 Dec 2017 07:15:42 GMT
