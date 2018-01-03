@@ -18,39 +18,36 @@ response:
     message: OK
   headers:
     X-Powered-By:
-    - PHP/5.6.31
+    - PHP/5.6.32
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=71af0fc8ccc5c7e61e4e7a71989450ba; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=5324af7eafec32f9b9388c77d922eab7; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Sun, 12 Nov 2017 09:25:02 GMT
+    - Fri, 02 Feb 2018 10:05:08 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Fri, 13 Oct 2017 09:10:44 GMT
-    Etag:
-    - http://parliament.gov.to/~parliam1/members-of-parliament/peoples/327-mateni-tapueluelu
+    - Wed, 03 Jan 2018 10:05:08 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '7723'
+    - no-cache
     Vary:
     - Accept-Encoding
     Date:
-    - Fri, 13 Oct 2017 09:25:02 GMT
+    - Wed, 03 Jan 2018 10:05:08 GMT
     Accept-Ranges:
     - bytes
     Server:
     - LiteSpeed
     Connection:
     - close
+    Content-Length:
+    - '8902'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 13 Oct 2017 09:25:02 GMT
+recorded_at: Wed, 03 Jan 2018 10:05:08 GMT
