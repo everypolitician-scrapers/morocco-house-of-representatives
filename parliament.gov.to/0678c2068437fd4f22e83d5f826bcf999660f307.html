@@ -277,7 +277,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Semisi Fakahau</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Poasi Mataele Tei</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -293,16 +293,16 @@
 	
 		<div class="page-header">
 		<h2>
-															<a href="/members-of-parliament/peoples/332-tevita-lavemaau?switch_to_desktop_ui=1\"> Tevita Lavemaau</a>
+															<a href="/members-of-parliament/peoples/332-tevita-lavemaau"> Tevita Lavemaau</a>
 									</h2>
 				</div>
 		<div class="jsn-article-toolbar">
 							<div class="btn-group pull-right">
 				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <i class="icon-cog"></i> <span class="caret"></span> </a>
 								<ul class="dropdown-menu actions">
-											<li class="print-icon"> <a href="/members-of-parliament/peoples/332-tevita-lavemaau?tmpl=component&amp;print=1&amp;layout=default&amp;page=&amp;switch_to_desktop_ui=1\" title="Print article < Tevita Lavemaau >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+											<li class="print-icon"> <a href="/members-of-parliament/peoples/332-tevita-lavemaau?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print article < Tevita Lavemaau >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
 		Print	</a> </li>
-																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=6635c7ce513491e91a70cecbb87ea9ba42b35060&amp;switch_to_desktop_ui=1\" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
+																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=0678c2068437fd4f22e83d5f826bcf999660f307" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
 		Email	</a> </li>
 														</ul>
 			</div>
@@ -394,11 +394,11 @@
 				
 <ul class="pager pagenav">
 	<li class="previous">
-		<a href="/members-of-parliament/peoples/330-dr-pohiva-tu-i-onetoa?switch_to_desktop_ui=1\" rel="prev">
+		<a href="/members-of-parliament/peoples/330-dr-pohiva-tu-i-onetoa" rel="prev">
 			<span class="icon-chevron-left"></span> Prev		</a>
 	</li>
 	<li class="next">
-		<a href="/members-of-parliament/peoples/334-vili-manuopangai-faka-osiula-hingano?switch_to_desktop_ui=1\" rel="next">
+		<a href="/members-of-parliament/peoples/328-veivosa-taka" rel="next">
 			Next <span class="icon-chevron-right"></span>		</a>
 	</li>
 </ul>
@@ -521,6 +521,10 @@
 					</div>
 								<div id="jsn-pos-bottom" class="span6">
 						<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
+
+
+
+
 <div  >
 	<p><span style="color: #000000;"><strong>Copyright &copy; 2014 Parliament of Tonga, Nuku'alofa, Kingdom of Tonga.&nbsp;All Rights Reserved.</strong></span></p></div><div class="clearbreak"></div></div></div></div>
 					</div>
@@ -597,45 +601,7 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			
-		jQuery(function($) {
-			SqueezeBox.initialize({});
-			SqueezeBox.assign($('a.modal').get(), {
-				parse: 'rel'
-			});
-		});
-
-		window.jModalClose = function () {
-			SqueezeBox.close();
-		};
-		
-		// Add extra modal close functionality for tinyMCE-based editors
-		document.onreadystatechange = function () {
-			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
-			{
-				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
-				{	
-					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
-					
-					jModalClose = function () {
-						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-		
-				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
-				{
-					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
-					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
-		
-					SqueezeBox.close = function () {
-						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-			}
-		};
-		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
