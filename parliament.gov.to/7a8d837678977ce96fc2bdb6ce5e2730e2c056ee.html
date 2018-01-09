@@ -261,7 +261,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Lord Tu'ilakepa</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Parliament Data-Articles</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -277,7 +277,7 @@
 	
 		<div class="page-header">
 		<h2>
-															<a href="/members-of-parliament/nobles/133-lord-tu-ilakepa?switch_to_desktop_ui=1\&quot;%20class="> Lord Tu'ilakepa</a>
+															<a href="/members-of-parliament/nobles/133-lord-tu-ilakepa"> Lord Tu'ilakepa</a>
 									</h2>
 				</div>
 		<div class="jsn-article-toolbar">
@@ -365,11 +365,11 @@
 				
 <ul class="pager pagenav">
 	<li class="previous">
-		<a href="/members-of-parliament/nobles/132-lord-tu-i-afitu?switch_to_desktop_ui=1\&quot;%20class=" rel="prev">
+		<a href="/members-of-parliament/nobles/132-lord-tu-i-afitu" rel="prev">
 			<span class="icon-chevron-left"></span> Prev		</a>
 	</li>
 	<li class="next">
-		<a href="/members-of-parliament/nobles/134-lord-havea-tu-iha-angana?switch_to_desktop_ui=1\&quot;%20class=" rel="next">
+		<a href="/members-of-parliament/nobles/269-lord-fakafanua" rel="next">
 			Next <span class="icon-chevron-right"></span>		</a>
 	</li>
 </ul>
@@ -492,10 +492,6 @@
 					</div>
 								<div id="jsn-pos-bottom" class="span6">
 						<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
-
-
-
-
 <div  >
 	<p><span style="color: #000000;"><strong>Copyright &copy; 2014 Parliament of Tonga, Nuku'alofa, Kingdom of Tonga.&nbsp;All Rights Reserved.</strong></span></p></div><div class="clearbreak"></div></div></div></div>
 					</div>
@@ -571,44 +567,6 @@
 					responsiveLayout		: ["mobile","wide"]
 				});
 			
-		jQuery(function($) {
-			SqueezeBox.initialize({});
-			SqueezeBox.assign($('a.modal').get(), {
-				parse: 'rel'
-			});
-		});
-
-		window.jModalClose = function () {
-			SqueezeBox.close();
-		};
-		
-		// Add extra modal close functionality for tinyMCE-based editors
-		document.onreadystatechange = function () {
-			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
-			{
-				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
-				{	
-					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
-					
-					jModalClose = function () {
-						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-		
-				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
-				{
-					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
-					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
-		
-					SqueezeBox.close = function () {
-						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-			}
-		};
-		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 						function jSelectShortcode(text) {
