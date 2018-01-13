@@ -18,36 +18,39 @@ response:
     message: OK
   headers:
     X-Powered-By:
-    - PHP/5.6.32
+    - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=5ef775b5744d97156abe86578462aaa3; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=702105be01a5f3d1e8f24fcc7a2c5666; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Thu, 08 Feb 2018 15:25:16 GMT
+    - Mon, 12 Feb 2018 17:23:02 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Tue, 09 Jan 2018 15:25:16 GMT
+    - Sat, 13 Jan 2018 17:22:11 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/peoples/335-sione-vuna-fa-otusia
     Pragma:
-    - no-cache
+    - no-cache, no-cache
+    Content-Length:
+    - '7986'
     Vary:
     - Accept-Encoding
     Date:
-    - Tue, 09 Jan 2018 15:25:16 GMT
+    - Sat, 13 Jan 2018 17:23:02 GMT
     Accept-Ranges:
     - bytes
     Server:
     - LiteSpeed
     Connection:
     - close
-    Content-Length:
-    - '8952'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 09 Jan 2018 15:25:17 GMT
+recorded_at: Sat, 13 Jan 2018 17:23:03 GMT
