@@ -18,27 +18,30 @@ response:
     message: OK
   headers:
     X-Powered-By:
-    - PHP/5.6.32
+    - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=fa178bb3ba885dd982f7df993d0ad7f4; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=1748ba56f954fbf3822e812371402361; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Thu, 08 Feb 2018 15:32:22 GMT
+    - Mon, 12 Feb 2018 17:29:39 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Tue, 09 Jan 2018 15:32:22 GMT
+    - Sat, 13 Jan 2018 17:22:17 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/peoples/330-dr-pohiva-tu-i-onetoa
     Pragma:
-    - no-cache
+    - no-cache, no-cache
     Vary:
     - Accept-Encoding
     Date:
-    - Tue, 09 Jan 2018 15:32:22 GMT
+    - Sat, 13 Jan 2018 17:29:39 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -46,8 +49,8 @@ response:
     Connection:
     - close
     Content-Length:
-    - '9690'
+    - '8612'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 09 Jan 2018 15:32:22 GMT
+recorded_at: Sat, 13 Jan 2018 17:29:39 GMT
