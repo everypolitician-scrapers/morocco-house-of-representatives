@@ -20,28 +20,25 @@ response:
     X-Powered-By:
     - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=92c0212f3f35de87589be222fe1075eb; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=33da8971daf9641bc7919c3c882db3ce; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Mon, 12 Feb 2018 17:27:23 GMT
+    - Sun, 18 Feb 2018 20:46:15 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Sat, 13 Jan 2018 17:22:14 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/329-penisimani-epenisa-fifita
+    - Fri, 19 Jan 2018 20:46:15 GMT
     Pragma:
-    - no-cache, no-cache
+    - no-cache
     Vary:
     - Accept-Encoding
     Date:
-    - Sat, 13 Jan 2018 17:27:23 GMT
+    - Fri, 19 Jan 2018 20:46:15 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -49,8 +46,8 @@ response:
     Connection:
     - close
     Content-Length:
-    - '8653'
+    - '9741'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 13 Jan 2018 17:27:23 GMT
+recorded_at: Fri, 19 Jan 2018 20:46:16 GMT
