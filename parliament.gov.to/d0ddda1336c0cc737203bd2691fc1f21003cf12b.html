@@ -264,7 +264,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Lord Havea Tu'iha'angana</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/nobles" class="pathway">Nobles</a></li><li><span class="divider"></span><span>Lord Fakafanua</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -280,7 +280,7 @@
 	
 		<div class="page-header">
 		<h2>
-															<a href="/members-of-parliament/nobles/136-lord-fusitu-a"> Lord Fusitu'a</a>
+															<a href="/members-of-parliament/nobles/136-lord-fusitu-a?switch_to_desktop_ui=1\'"> Lord Fusitu'a</a>
 									</h2>
 				</div>
 		<div class="jsn-article-toolbar">
@@ -385,7 +385,7 @@
 <td>Contact</td>
 <td>
 <ul>
-<li>Email : <span id="cloak35fab16b8e1bad979047f14c6a39b687">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
+<li>Email : <span id="cloake8d8b42e7aa40f86c1733caa83f1bf87">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></li>
 <li>Mob number : +676 8421244</li>
 </ul>
 </td>
@@ -417,7 +417,7 @@
 				
 <ul class="pager pagenav">
 	<li class="previous">
-		<a href="/members-of-parliament/nobles/134-lord-havea-tu-iha-angana" rel="prev">
+		<a href="/members-of-parliament/nobles/134-lord-havea-tu-iha-angana?switch_to_desktop_ui=1\'" rel="prev">
 			<span class="icon-chevron-left"></span> Prev		</a>
 	</li>
 </ul>
@@ -614,15 +614,53 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
-				document.getElementById('cloak35fab16b8e1bad979047f14c6a39b687').innerHTML = '';
+				document.getElementById('cloake8d8b42e7aa40f86c1733caa83f1bf87').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy35fab16b8e1bad979047f14c6a39b687 = 'mf&#117;s&#105;t&#117;&#97;' + '&#64;';
-				addy35fab16b8e1bad979047f14c6a39b687 = addy35fab16b8e1bad979047f14c6a39b687 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloak35fab16b8e1bad979047f14c6a39b687').innerHTML += addy35fab16b8e1bad979047f14c6a39b687;
+				var addye8d8b42e7aa40f86c1733caa83f1bf87 = 'mf&#117;s&#105;t&#117;&#97;' + '&#64;';
+				addye8d8b42e7aa40f86c1733caa83f1bf87 = addye8d8b42e7aa40f86c1733caa83f1bf87 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloake8d8b42e7aa40f86c1733caa83f1bf87').innerHTML += addye8d8b42e7aa40f86c1733caa83f1bf87;
 		;
 
 						function jSelectShortcode(text) {
