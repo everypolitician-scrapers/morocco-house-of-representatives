@@ -20,34 +20,35 @@ response:
     X-Powered-By:
     - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=f6ac22095f9148840341a2322f72b64f; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=c74b42c8555654abf74c86843ed5c449; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Mon, 19 Feb 2018 08:46:42 GMT
+    - Tue, 20 Feb 2018 01:15:45 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Sat, 20 Jan 2018 08:46:42 GMT
+    - Sun, 21 Jan 2018 01:07:31 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/nobles/133-lord-tu-ilakepa
     Pragma:
-    - no-cache
-    Vary:
-    - Accept-Encoding
+    - no-cache, no-cache
+    Content-Length:
+    - '6549'
     Date:
-    - Sat, 20 Jan 2018 08:46:42 GMT
+    - Sun, 21 Jan 2018 01:15:45 GMT
     Accept-Ranges:
     - bytes
     Server:
     - LiteSpeed
     Connection:
     - close
-    Content-Length:
-    - '7231'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 20 Jan 2018 08:46:42 GMT
+recorded_at: Sun, 21 Jan 2018 01:15:46 GMT
