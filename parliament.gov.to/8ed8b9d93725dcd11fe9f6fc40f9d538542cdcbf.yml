@@ -18,36 +18,36 @@ response:
     message: OK
   headers:
     X-Powered-By:
-    - PHP/5.6.32
+    - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=5822972f03869f59f16c98aa94f09c77; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=7cac2393edff8323e31bf87123448e4f; path=/; HttpOnly
     P3p:
     - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
     - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Sat, 30 Dec 2017 11:25:47 GMT
+    - Thu, 01 Mar 2018 07:48:12 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Thu, 30 Nov 2017 11:25:47 GMT
+    - Tue, 30 Jan 2018 07:48:12 GMT
     Pragma:
     - no-cache
-    Transfer-Encoding:
-    - chunked
     Vary:
     - Accept-Encoding
     Date:
-    - Thu, 30 Nov 2017 11:25:47 GMT
+    - Tue, 30 Jan 2018 07:48:12 GMT
     Accept-Ranges:
     - bytes
     Server:
     - LiteSpeed
     Connection:
     - close
+    Content-Length:
+    - '6778'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 30 Nov 2017 11:25:47 GMT
+recorded_at: Tue, 30 Jan 2018 07:48:12 GMT
