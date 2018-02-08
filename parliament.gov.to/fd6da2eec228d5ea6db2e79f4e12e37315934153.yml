@@ -20,28 +20,27 @@ response:
     X-Powered-By:
     - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=f7d0c62fa53001ef5cadba906e4dd2ba; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=c25f1c993a6dd7d36fbfee604b235c64; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Fri, 09 Mar 2018 01:55:20 GMT
+    - Sat, 10 Mar 2018 21:22:16 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Wed, 07 Feb 2018 01:52:07 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/peoples/326-poasi-mataele-tei
+    - Thu, 08 Feb 2018 21:22:15 GMT
     Pragma:
-    - no-cache, no-cache
+    - no-cache
     Content-Length:
-    - '7638'
+    - '8524'
+    Vary:
+    - Accept-Encoding
     Date:
-    - Wed, 07 Feb 2018 01:55:20 GMT
+    - Thu, 08 Feb 2018 21:22:16 GMT
     Accept-Ranges:
     - bytes
     Server:
@@ -51,4 +50,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 07 Feb 2018 01:55:20 GMT
+recorded_at: Thu, 08 Feb 2018 21:22:16 GMT
