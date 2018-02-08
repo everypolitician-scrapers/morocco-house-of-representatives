@@ -20,34 +20,37 @@ response:
     X-Powered-By:
     - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=ecb18e7c285b85abb366489610ebd00b; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=463030a17edbe8d5bd3fd5b55eb72888; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Fri, 09 Mar 2018 02:33:19 GMT
+    - Sat, 10 Mar 2018 21:57:25 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Wed, 07 Feb 2018 02:33:19 GMT
+    - Thu, 08 Feb 2018 21:56:20 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/nobles/134-lord-havea-tu-iha-angana
     Pragma:
-    - no-cache
+    - no-cache, no-cache
+    Content-Length:
+    - '5713'
     Vary:
     - Accept-Encoding
     Date:
-    - Wed, 07 Feb 2018 02:33:19 GMT
+    - Thu, 08 Feb 2018 21:57:25 GMT
     Accept-Ranges:
     - bytes
     Server:
     - LiteSpeed
     Connection:
     - close
-    Content-Length:
-    - '6375'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 07 Feb 2018 02:33:19 GMT
+recorded_at: Thu, 08 Feb 2018 21:57:25 GMT
