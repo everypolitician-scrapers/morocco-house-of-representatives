@@ -20,34 +20,37 @@ response:
     X-Powered-By:
     - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=bcca1dfd7bff712c1fab66e89247c4d1; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=83e114348937a174fefef7945d658df5; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
-    - Fri, 09 Mar 2018 02:35:34 GMT
+    - Sat, 10 Mar 2018 21:59:41 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Wed, 07 Feb 2018 02:35:34 GMT
+    - Thu, 08 Feb 2018 21:56:23 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/nobles/269-lord-fakafanua
     Pragma:
-    - no-cache
+    - no-cache, no-cache
+    Content-Length:
+    - '6127'
     Vary:
     - Accept-Encoding
     Date:
-    - Wed, 07 Feb 2018 02:35:34 GMT
+    - Thu, 08 Feb 2018 21:59:41 GMT
     Accept-Ranges:
     - bytes
     Server:
     - LiteSpeed
     Connection:
     - close
-    Content-Length:
-    - '6863'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 07 Feb 2018 02:35:35 GMT
+recorded_at: Thu, 08 Feb 2018 21:59:41 GMT
