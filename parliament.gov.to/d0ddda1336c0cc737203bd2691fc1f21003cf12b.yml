@@ -20,37 +20,34 @@ response:
     X-Powered-By:
     - PHP/5.6.33
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=165429b597f6e654e1db009e2ac2fa63; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=94e3e06849cab50bb3d6ed1b96f4586e; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
-      NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     - public, max-age=2592000
     Expires:
-    - Sat, 10 Mar 2018 22:02:34 GMT
+    - Sun, 11 Mar 2018 21:32:35 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Thu, 08 Feb 2018 21:56:24 GMT
-    Etag:
-    - http://parliament.gov.to/members-of-parliament/nobles/136-lord-fusitu-a
+    - Fri, 09 Feb 2018 21:32:35 GMT
     Pragma:
-    - no-cache, no-cache
-    Content-Length:
-    - '7493'
+    - no-cache
     Vary:
     - Accept-Encoding
     Date:
-    - Thu, 08 Feb 2018 22:02:34 GMT
+    - Fri, 09 Feb 2018 21:32:35 GMT
     Accept-Ranges:
     - bytes
     Server:
     - LiteSpeed
     Connection:
     - close
+    Content-Length:
+    - '8388'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 08 Feb 2018 22:02:34 GMT
+recorded_at: Fri, 09 Feb 2018 21:32:35 GMT
