@@ -280,7 +280,7 @@
 									<div id="jsn-breadcrumbs">
 									<div id="jsn-pos-breadcrumbs" class="">
 <ul class="breadcrumb ">
-<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Semisi Fakahau</span></li></ul>	
+<li><a href="/" class="pathway">Home</a><span class="divider"></span></li><li><a href="/members-of-parliament" class="pathway">Members of Parliament</a><span class="divider"></span></li><li><a href="/members-of-parliament/peoples" class="pathway">Peoples</a></li><li><span class="divider"></span><span>Sione Vuna Fa'otusia</span></li></ul>	
 </div>
 								</div>
 									<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
@@ -305,7 +305,7 @@
 								<ul class="dropdown-menu actions">
 											<li class="print-icon"> <a href="/members-of-parliament/peoples/380-semisi-fakahau?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print article < Semisi Fakahau >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
 		Print	</a> </li>
-																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=e1ba38e0be1d6501ee13d53e37c699e0c4685300" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
+																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=2fea16d6085adcb4d2b290d3cfceda074e12903d" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
 		Email	</a> </li>
 														</ul>
 			</div>
@@ -406,6 +406,12 @@
 			                <div id="jsn-pos-content-bottom" class="jsn-modulescontainer jsn-horizontallayout jsn-modulescontainer3 row-fluid">
                 	<div class="lightbox-1 jsn-modulecontainer span4"><div class="jsn-modulecontainer_inner"><div><div><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Latest News</span></h3><div class="jsn-modulecontent"><ul class="latestnewslightbox-1">
 	<li itemscope itemtype="https://schema.org/Article">
+		<a href="/media-centre/latest-news/latest-news-in-english/610-tongan-youths-to-attend-commonwealth-youth-parliament" itemprop="url">
+			<span itemprop="name">
+				Tongan youths to attend Commonwealth Youth Parliament			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
 		<a href="/media-centre/latest-news/latest-news-in-english/609-king-advised-mps-on-their-role" itemprop="url">
 			<span itemprop="name">
 				King advised MPs on their role			</span>
@@ -421,12 +427,6 @@
 		<a href="/media-centre/latest-news/latest-news-in-english/607-mps-take-oaths-of-office-today" itemprop="url">
 			<span itemprop="name">
 				 MPs take oaths of office today			</span>
-		</a>
-	</li>
-	<li itemscope itemtype="https://schema.org/Article">
-		<a href="/media-centre/latest-news/latest-news-in-tongan/606-parliament-opens-today" itemprop="url">
-			<span itemprop="name">
-				Parliament opens today			</span>
 		</a>
 	</li>
 </ul>
@@ -589,7 +589,45 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
