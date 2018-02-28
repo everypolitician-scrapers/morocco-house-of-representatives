@@ -305,7 +305,7 @@
 								<ul class="dropdown-menu actions">
 											<li class="print-icon"> <a href="/members-of-parliament/peoples/326-poasi-mataele-tei?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print article < Poasi Mataele Tei >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
 		Print	</a> </li>
-																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=06352c459c97a72f3483ce223ecb96ceb3d18c66" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
+																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=fd6da2eec228d5ea6db2e79f4e12e37315934153" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
 		Email	</a> </li>
 														</ul>
 			</div>
@@ -600,45 +600,7 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			
-		jQuery(function($) {
-			SqueezeBox.initialize({});
-			SqueezeBox.assign($('a.modal').get(), {
-				parse: 'rel'
-			});
-		});
-
-		window.jModalClose = function () {
-			SqueezeBox.close();
-		};
-		
-		// Add extra modal close functionality for tinyMCE-based editors
-		document.onreadystatechange = function () {
-			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
-			{
-				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
-				{	
-					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
-					
-					jModalClose = function () {
-						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-		
-				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
-				{
-					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
-					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
-		
-					SqueezeBox.close = function () {
-						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-			}
-		};
-		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
