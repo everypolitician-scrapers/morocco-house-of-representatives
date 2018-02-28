@@ -305,7 +305,7 @@
 								<ul class="dropdown-menu actions">
 											<li class="print-icon"> <a href="/members-of-parliament/peoples/327-mateni-tapueluelu?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print article < Mateni Tapueluelu >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
 		Print	</a> </li>
-																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=ae1a8bf4ce99e952a5fbaa653a5bb3c65f771e32" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
+																<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=jsn_mico_pro&amp;link=4a2ec5b51046dcf72d5bb5a365f5db20518b6c7c" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
 		Email	</a> </li>
 														</ul>
 			</div>
@@ -364,7 +364,7 @@
 </td>
 </tr>
 <tr>
-<td><strong>Email</strong> : <span id="cloak96fb2e3aa93f448b0084577fa7c0f87f">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
+<td><strong>Email</strong> : <span id="cloakf009e59f7b100ef332c26a589eb31480">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></td>
 </tr>
 <tr>
 <td><strong>Mobile :&nbsp;</strong></td>
@@ -600,45 +600,7 @@
 					enableDesktopMenuSticky	: 0,
 					responsiveLayout		: ["mobile","wide"]
 				});
-			
-		jQuery(function($) {
-			SqueezeBox.initialize({});
-			SqueezeBox.assign($('a.modal').get(), {
-				parse: 'rel'
-			});
-		});
-
-		window.jModalClose = function () {
-			SqueezeBox.close();
-		};
-		
-		// Add extra modal close functionality for tinyMCE-based editors
-		document.onreadystatechange = function () {
-			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
-			{
-				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
-				{	
-					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
-					
-					jModalClose = function () {
-						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-		
-				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
-				{
-					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
-					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
-		
-					SqueezeBox.close = function () {
-						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
-						tinyMCE.activeEditor.windowManager.close();
-					};
-				}
-			}
-		};
-		jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+			jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
 	;
 
 jQuery(document).ready(function(){	
@@ -698,12 +660,12 @@ jQuery(document).ready(function(){
 		});
 ;
 
-				document.getElementById('cloak96fb2e3aa93f448b0084577fa7c0f87f').innerHTML = '';
+				document.getElementById('cloakf009e59f7b100ef332c26a589eb31480').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy96fb2e3aa93f448b0084577fa7c0f87f = 'm&#97;t&#101;n&#105;n&#101;ws' + '&#64;';
-				addy96fb2e3aa93f448b0084577fa7c0f87f = addy96fb2e3aa93f448b0084577fa7c0f87f + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
-				document.getElementById('cloak96fb2e3aa93f448b0084577fa7c0f87f').innerHTML += addy96fb2e3aa93f448b0084577fa7c0f87f;
+				var addyf009e59f7b100ef332c26a589eb31480 = 'm&#97;t&#101;n&#105;n&#101;ws' + '&#64;';
+				addyf009e59f7b100ef332c26a589eb31480 = addyf009e59f7b100ef332c26a589eb31480 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				document.getElementById('cloakf009e59f7b100ef332c26a589eb31480').innerHTML += addyf009e59f7b100ef332c26a589eb31480;
 		;
 
 						function jSelectShortcode(text) {
