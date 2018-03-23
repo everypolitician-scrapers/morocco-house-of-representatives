@@ -1,0 +1,53 @@
+---
+request:
+  method: get
+  uri: http://parliament.gov.to/members-of-parliament/peoples/152-samiu-kuita-vaipulu?switch_to_desktop_ui=1/%22itemprop=
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    X-Powered-By:
+    - PHP/5.6.34
+    Set-Cookie:
+    - 98c1c581dccdf84615fabe1353b21721=5a9efa5031da3786b9bad48e7d2d02b6; path=/; HttpOnly
+    P3p:
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - public, max-age=2592000
+    Expires:
+    - Sun, 22 Apr 2018 03:17:59 GMT
+    - Wed, 17 Aug 2005 00:00:00 GMT
+    Content-Type:
+    - text/html; charset=utf-8
+    Last-Modified:
+    - Fri, 23 Mar 2018 03:17:59 GMT
+    Pragma:
+    - no-cache
+    Vary:
+    - Accept-Encoding
+    Date:
+    - Fri, 23 Mar 2018 03:17:59 GMT
+    Accept-Ranges:
+    - bytes
+    Server:
+    - LiteSpeed
+    Connection:
+    - close
+    Content-Length:
+    - '9237'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Fri, 23 Mar 2018 03:17:59 GMT
