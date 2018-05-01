@@ -20,34 +20,37 @@ response:
     X-Powered-By:
     - PHP/5.6.35
     Set-Cookie:
-    - 98c1c581dccdf84615fabe1353b21721=2963a4f44d3097a4d68e008dce53b0ea; path=/; HttpOnly
+    - 98c1c581dccdf84615fabe1353b21721=901fbb1895b5b7379fa167656d8a237c; path=/; HttpOnly
     P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM", CP="NOI ADM DEV PSAi COM
+      NAV OUR OTRo STP IND DEM"
     Cache-Control:
-    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache
     - public, max-age=2592000
     Expires:
+    - Thu, 31 May 2018 01:15:29 GMT
     - Wed, 17 Aug 2005 00:00:00 GMT
-    - Wed, 30 May 2018 08:26:34 GMT
     Content-Type:
     - text/html; charset=utf-8
     Last-Modified:
-    - Mon, 30 Apr 2018 08:26:34 GMT
+    - Tue, 01 May 2018 01:02:58 GMT
+    Etag:
+    - http://parliament.gov.to/members-of-parliament/peoples/138-samiuela-akilisi-pohiva
     Pragma:
-    - no-cache
+    - no-cache, no-cache
+    Content-Length:
+    - '7960'
     Vary:
     - Accept-Encoding
     Date:
-    - Mon, 30 Apr 2018 08:26:34 GMT
+    - Tue, 01 May 2018 01:15:29 GMT
     Accept-Ranges:
     - bytes
     Server:
     - LiteSpeed
     Connection:
     - close
-    Content-Length:
-    - '8974'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 30 Apr 2018 08:26:34 GMT
+recorded_at: Tue, 01 May 2018 01:15:29 GMT
