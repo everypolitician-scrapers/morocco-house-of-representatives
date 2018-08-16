@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/everypolitician/scraped
-  revision: aabdf259f6cc2f746b50352e078a9141450e8d6e
+  revision: 7fd43913456af49d32e882d0cb79f3da1f5117ef
   specs:
-    scraped (0.1.0)
-      field_serializer
+    scraped (0.6.2)
+      field_serializer (>= 0.3.0)
       nokogiri
       require_all
 
@@ -19,37 +19,39 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    ast (2.3.0)
-    coderay (1.1.0)
-    field_serializer (0.2.0)
-    httpclient (2.8.2.4)
-    method_source (0.8.2)
-    mini_portile (0.6.2)
-    nokogiri (1.6.6.2)
-      mini_portile (~> 0.6.0)
+    ast (2.4.0)
+    coderay (1.1.2)
+    field_serializer (0.3.0)
+    httpclient (2.8.3)
+    jaro_winkler (1.5.1)
+    method_source (0.9.0)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.4)
+      mini_portile2 (~> 2.3.0)
     open-uri-cached (0.0.5)
-    parser (2.3.3.1)
-      ast (~> 2.2)
-    powerpack (0.1.1)
-    pry (0.10.1)
+    parallel (1.12.1)
+    parser (2.5.1.2)
+      ast (~> 2.4.0)
+    powerpack (0.1.2)
+    pry (0.11.3)
       coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-    rainbow (2.1.0)
-    rake (11.2.2)
-    require_all (1.3.3)
-    rubocop (0.46.0)
-      parser (>= 2.3.1.1, < 3.0)
+      method_source (~> 0.9.0)
+    rainbow (3.0.0)
+    rake (12.3.1)
+    require_all (2.0.0)
+    rubocop (0.58.2)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.5, != 2.5.1.1)
       powerpack (~> 0.1)
-      rainbow (>= 1.99.1, < 3.0)
+      rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
-    ruby-progressbar (1.8.1)
-    slop (3.6.0)
-    sqlite3 (1.3.12)
+    ruby-progressbar (1.10.0)
+    sqlite3 (1.3.13)
     sqlite_magic (0.0.6)
       sqlite3
-    unicode-display_width (1.1.2)
+    unicode-display_width (1.4.0)
 
 PLATFORMS
   ruby
@@ -64,7 +66,7 @@ DEPENDENCIES
   scraperwiki!
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.4.1p111
 
 BUNDLED WITH
-   1.13.6
+   1.16.2
